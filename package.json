@@ -1,0 +1,19 @@
+{
+  "name": "david_portfolio",
+  "version": "1.0.0",
+  "description": "David's Portfolio App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imdavidy/myPortfolio.git"
+  },
+  "author": "David Yoon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imdavidy/myPortfolio/issues"
+  },
+  "homepage": "https://github.com/imdavidy/myPortfolio#readme"
+}
