@@ -17,7 +17,7 @@ app.use((err, req, res, next) => {
   res.send(err);
 })
 
-app.listen(1337,
+app.listen(3000,
   ()=>{
     console.log("connected to server")
   })
