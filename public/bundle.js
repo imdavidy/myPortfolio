@@ -952,7 +952,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   'h1',
   null,
   'Hi from React'
-), document.getElementById('main'));
+), document.getElementById('app'));
 
 /***/ }),
 /* 15 */
