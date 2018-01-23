@@ -1153,35 +1153,81 @@ function content(props) {
         { className: 'jumbotron' },
         _react2.default.createElement(
           'div',
-          { className: 'row text-center', style: { justifyContent: "center" } },
+          { className: 'row', style: { justifyContent: "center", padding: 4 } },
           _react2.default.createElement(
             'div',
-            { className: 'card' },
-            _react2.default.createElement('img', { alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/codeTapSplash.png' }),
+            { className: 'card', style: { width: "216px", display: "block" } },
+            _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/codeTapThumb.png' }),
             _react2.default.createElement(
-              'p',
-              { className: 'card-text' },
-              'CodeTap'
+              'div',
+              { className: 'card-body', style: { padding: 8 } },
+              _react2.default.createElement(
+                'h5',
+                { className: 'card-title' },
+                'CodeTap'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'card-text' },
+                'Mobile Coding App'
+              )
             )
           ),
           _react2.default.createElement(
             'div',
-            { className: 'card' },
-            _react2.default.createElement('img', { alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/powerMarket.png' }),
+            { className: 'card', style: { width: "216px", display: "block" } },
+            _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/powerMarketThumb.png' }),
             _react2.default.createElement(
-              'p',
-              { className: 'card-text' },
-              'PowerMarket'
+              'div',
+              { className: 'card-body', style: { padding: 8 } },
+              _react2.default.createElement(
+                'h5',
+                { className: 'card-title' },
+                'PowerMarket'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'card-text' },
+                'E-commerse Website for superpowers'
+              )
             )
           ),
           _react2.default.createElement(
             'div',
-            { className: 'card' },
-            _react2.default.createElement('img', { alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/jayeonCapture.png' }),
+            { className: 'card', style: { width: "216px", display: "block" } },
+            _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/jayeonThumb.png' }),
             _react2.default.createElement(
-              'p',
-              { className: 'card-text' },
-              'Testy!'
+              'div',
+              { className: 'card-body', style: { padding: 8 } },
+              _react2.default.createElement(
+                'h5',
+                { className: 'card-title' },
+                'Porject: JaYeon'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'card-text' },
+                'Data Visualization for weather information'
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'card', style: { width: "216px", display: "block" } },
+            _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/fireBaseThumb.png' }),
+            _react2.default.createElement(
+              'div',
+              { className: 'card-body', style: { padding: 8 } },
+              _react2.default.createElement(
+                'h5',
+                { className: 'card-title' },
+                'Intro to FireBase'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'card-text' },
+                'Intodunction to FireBase'
+              )
             )
           )
         )

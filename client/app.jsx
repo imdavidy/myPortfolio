@@ -39,7 +39,7 @@ export default function content(props) {
             </div>
             <div className="row justify-content-md-center">
               <blockquote className="blockquote col-6">
-                <p className="col mb-0">"So... how does that work?"</p>
+                <p className="col mb-0">"So... how does it work?"</p>
                 <footer className="blockquote-footer">David Yoon</footer>
               </blockquote>
               <p>
@@ -67,18 +67,34 @@ export default function content(props) {
           <h5 className="display-5 text-center">Projects</h5>
           <div className="jumbotron">
               
-                <div className="row text-center" style={{justifyContent: "center"}}>
-                  <div className="card">
-                    <img alt="100%x280" style={{width: "216px", display: "block"}} src="./img/codeTapSplash.png" />
-                    <p className="card-text">CodeTap</p>
+                <div className="row" style={{justifyContent: "center"}}>
+                  <div className="card" style={{width: "216px", display: "block"}}>
+                    <img className="card-img-top" alt="100%x280" style={{width: "216px", display: "block"}} src="./img/codeTapThumb.png" />
+                    <div className="card-body" style={{padding: 8}}>
+                      <h5 className="card-title">CodeTap</h5>
+                      <p className="card-text">Mobile Coding App</p>
+                    </div>
                   </div>
-                  <div className="card">
-                    <img alt="100%x280" style={{width: "216px", display: "block"}} src="./img/powerMarket.png" />
-                    <p className="card-text">PowerMarket</p>
+                  <div className="card" style={{width: "216px", display: "block"}}>
+                    <img className="card-img-top" alt="100%x280" style={{width: "216px", display: "block"}} src="./img/powerMarketThumb.png" />
+                    <div className="card-body" style={{padding: 8}}>
+                      <h5 className="card-title">PowerMarket</h5>
+                      <p className="card-text">E-commerse Website for superpowers</p>
+                    </div>
                   </div>
-                  <div className="card">
-                    <img alt="100%x280" style={{width: "216px", display: "block"}} src="./img/jayeonCapture.png" />
-                    <p className="card-text">Testy!</p>
+                  <div className="card" style={{width: "216px", display: "block"}}>
+                    <img className="card-img-top" alt="100%x280" style={{width: "216px", display: "block"}} src="./img/jayeonThumb.png" />
+                    <div className="card-body" style={{padding: 8}}>
+                      <h5 className="card-title">Porject: JaYeon</h5>
+                      <p className="card-text">Data Visualization for weather information</p>
+                    </div>
+                  </div>
+                  <div className="card" style={{width: "216px", display: "block"}}>
+                    <img className="card-img-top" alt="100%x280" style={{width: "216px", display: "block"}} src="./img/fireBaseThumb.png" />
+                    <div className="card-body" style={{padding: 8}}>
+                      <h5 className="card-title">Intro to FireBase</h5>
+                      <p className="card-text">Intodunction to FireBase</p>
+                    </div>
                   </div>
                 </div>
               
