@@ -1009,153 +1009,188 @@ function content(props) {
     null,
     _react2.default.createElement(
       'div',
-      { 'class': 'container' },
+      null,
       _react2.default.createElement(
         'div',
-        { 'class': 'row' },
+        { className: 'jumbotron' },
+        _react2.default.createElement(
+          'h1',
+          { className: 'display-4 text-center' },
+          'David Yoon'
+        ),
+        _react2.default.createElement(
+          'p',
+          { className: 'h4 text-center' },
+          _react2.default.createElement(
+            'em',
+            null,
+            'I\'m a creative JavaScript webdeveloper'
+          )
+        ),
         _react2.default.createElement(
           'div',
-          { 'class': 'col' },
+          null,
           _react2.default.createElement(
             'div',
-            { 'class': 'jumbotron' },
+            { className: 'text-center' },
             _react2.default.createElement(
-              'h1',
-              { 'class': 'display-3 text-center' },
+              'div',
+              { className: 'img-thumbnail' },
+              _react2.default.createElement('img', { src: './img/myProfilePic.jpg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                _react2.default.createElement(
+                  'small',
+                  null,
+                  'David\'s amazing, caught in the wild, profile picture*',
+                  _react2.default.createElement('br', null),
+                  _react2.default.createElement(
+                    'small',
+                    null,
+                    '*Not scale to size. Maybe larger in Real Life'
+                  )
+                )
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'row' },
+          _react2.default.createElement(
+            'p',
+            { className: 'h5 col text-center' },
+            'Here\'s a timeline of David\'s Professional life:'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'row justify-content-md-center' },
+          _react2.default.createElement(
+            'div',
+            { className: 'col-7' },
+            _react2.default.createElement(
+              'ul',
+              null,
+              _react2.default.createElement(
+                'li',
+                null,
+                _react2.default.createElement(
+                  'strong',
+                  null,
+                  '2017'
+                ),
+                '- Graduated Fullstack Academy Immersive Program'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'row justify-content-md-center' },
+          _react2.default.createElement(
+            'blockquote',
+            { className: 'blockquote col-6' },
+            _react2.default.createElement(
+              'p',
+              { className: 'col mb-0' },
+              '"So... how does that work?"'
+            ),
+            _react2.default.createElement(
+              'footer',
+              { className: 'blockquote-footer' },
               'David Yoon'
+            )
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Full stack software engineer with previous background 10+ years in graphic design. Having come from a creative background coupled with the analytical skills of a full stack developer, they form a synergy that is very rare and valuable. I believe it\u2019s an indispensable and vital asset for any company or organization to be comprised of to grow. My full stack knowledge is comprised of JavaScript, Node.js, Express, React, Sequelize and PostgresSQL. Accomplished professional with multiple background demonstrating stellar adaptation and problem solving skills across multiple mediums. Has international work experience utilizing English and Korean bilingual ability in the workplace. Strives to introduce the most up to date technology into all projects for a most affective and efficient solution possible.'
+          ),
+          _react2.default.createElement('br', null),
+          _react2.default.createElement(
+            'div',
+            null,
+            _react2.default.createElement(
+              'h5',
+              null,
+              'Proficient in the following:'
             ),
             _react2.default.createElement(
               'p',
-              { 'class': 'h3 text-center' },
-              _react2.default.createElement(
-                'em',
-                null,
-                'I\'m a creative JavaScript webdeveloper'
-              )
-            ),
-            _react2.default.createElement(
-              'div',
               null,
-              _react2.default.createElement(
-                'div',
-                { 'class': 'text-center' },
-                _react2.default.createElement(
-                  'div',
-                  { 'class': 'img-thumbnail' },
-                  _react2.default.createElement('img', { src: 'https://avatars1.githubusercontent.com/u/18057724?s=400&u=7e33d5bd9b73382a05a17a371ab6087b7a366896&v=4' }),
-                  _react2.default.createElement(
-                    'p',
-                    null,
-                    _react2.default.createElement(
-                      'small',
-                      null,
-                      'David\'s amazing and caught in the wild profile picture*',
-                      _react2.default.createElement('br', null),
-                      _react2.default.createElement(
-                        'small',
-                        null,
-                        '*Not scale to size. Maybe larger in Real Life'
-                      )
-                    )
-                  )
-                )
-              )
+              'JavaScript, Node.js, Express, React/React-Redux, Redux, Sequelize, PostgreSQL, Socket.io, jQuery, Jasmine, Mocha/Chai, Git/GitHub, HTML/CSS, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe PageMaker, Adobe Image Ready, Adobe Premiere, QuarkXpress, Fontographer, Flash, Director, Corel Draw, Microsoft Front Page, Microsoft Office'
             ),
+            'Email: imdavidy@gmail.com',
+            _react2.default.createElement('br', null),
+            'LinkedIn: https://www.linkedin.com/in/david-yoon-4530538b/',
+            _react2.default.createElement('br', null),
+            'GitHub: https://github.com/imdavidy',
+            _react2.default.createElement('br', null),
+            'Resume: David_Yoon-Resume.pdf'
+          ),
+          _react2.default.createElement(
+            'p',
+            { className: 'h3' },
+            'If you would like to send me a message, please feel free to ',
             _react2.default.createElement(
-              'div',
-              { 'class': 'row' },
-              _react2.default.createElement(
-                'p',
-                { 'class': 'h5 col text-center' },
-                'Here\'s a timeline of David\'s life:'
-              )
+              'a',
+              { href: 'mailto:imdavidy@gmail.com' },
+              'email'
             ),
+            '.'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'h5',
+        { className: 'display-5 text-center' },
+        'Projects'
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'jumbotron' },
+        _react2.default.createElement(
+          'div',
+          { className: 'row text-center', style: { justifyContent: "center" } },
+          _react2.default.createElement(
+            'div',
+            { className: 'card' },
+            _react2.default.createElement('img', { alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/codeTapSplash.png' }),
             _react2.default.createElement(
-              'div',
-              { 'class': 'row justify-content-md-center' },
-              _react2.default.createElement(
-                'div',
-                { 'class': 'col-7' },
-                _react2.default.createElement(
-                  'ul',
-                  null,
-                  _react2.default.createElement(
-                    'li',
-                    null,
-                    _react2.default.createElement(
-                      'strong',
-                      null,
-                      '2017'
-                    ),
-                    '- Graduated Fullstack Academy Immersive Program'
-                  )
-                )
-              )
-            ),
-            _react2.default.createElement(
-              'div',
-              { 'class': 'row justify-content-md-center' },
-              _react2.default.createElement(
-                'blockquote',
-                { 'class': 'blockquote col-6' },
-                _react2.default.createElement(
-                  'p',
-                  { 'class': 'col mb-0' },
-                  '"So... how does that work?"'
-                ),
-                _react2.default.createElement(
-                  'footer',
-                  { 'class': 'blockquote-footer' },
-                  'David Yoon'
-                )
-              ),
-              _react2.default.createElement(
-                'p',
-                null,
-                'Full stack software engineer with previous background 10+ years in graphic design. Having come from a creative background coupled with the analytical skills of a full stack developer, they form a synergy that is very rare and valuable. I believe it\u2019s an indispensable and vital asset for any company or organization to be comprised of to grow. My full stack knowledge is comprised of JavaScript, Node.js, Express, React, Sequelize and PostgresSQL. Accomplished professional with multiple background demonstrating stellar adaptation and problem solving skills across multiple mediums. Has international work experience utilizing English and Korean bilingual ability in the workplace. Strives to introduce the most up to date technology into all projects for a most affective and efficient solution possible.'
-              ),
-              _react2.default.createElement('br', null),
-              _react2.default.createElement(
-                'div',
-                null,
-                _react2.default.createElement(
-                  'h5',
-                  null,
-                  'Proficient in the following:'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  null,
-                  'JavaScript, Node.js, Express, React/React-Redux, Redux, Sequelize, PostgreSQL, Socket.io, jQuery, Jasmine, Mocha/Chai, Git/GitHub, HTML/CSS, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe PageMaker, Adobe Image Ready, Adobe Premiere, QuarkXpress, Fontographer, Flash, Director, Corel Draw, Microsoft Front Page, Microsoft Office'
-                ),
-                'Email: imdavidy@gmail.com',
-                _react2.default.createElement('br', null),
-                'LinkedIn: https://www.linkedin.com/in/david-yoon-4530538b/',
-                _react2.default.createElement('br', null),
-                'GitHub: https://github.com/imdavidy',
-                _react2.default.createElement('br', null),
-                'Resume: David_Yoon-Resume.pdf'
-              ),
-              _react2.default.createElement(
-                'p',
-                { 'class': 'h3' },
-                'If you would like to send him a message, please feel free to ',
-                _react2.default.createElement(
-                  'a',
-                  { href: 'mailto:imdavidy@gmail.com' },
-                  'email'
-                ),
-                '.'
-              )
+              'p',
+              { className: 'card-text' },
+              'CodeTap'
             )
           ),
-          _react2.default.createElement('hr', null)
+          _react2.default.createElement(
+            'div',
+            { className: 'card' },
+            _react2.default.createElement('img', { alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/powerMarket.png' }),
+            _react2.default.createElement(
+              'p',
+              { className: 'card-text' },
+              'PowerMarket'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'card' },
+            _react2.default.createElement('img', { alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/jayeonCapture.png' }),
+            _react2.default.createElement(
+              'p',
+              { className: 'card-text' },
+              'Testy!'
+            )
+          )
         )
-      )
+      ),
+      _react2.default.createElement('hr', null)
     ),
     _react2.default.createElement(
       'footer',
-      { 'class': 'text-center' },
+      { className: 'text-center' },
       'Written and coded by David Yoon'
     )
   );
