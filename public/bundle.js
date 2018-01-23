@@ -1035,7 +1035,7 @@ function content(props) {
             { className: 'text-center' },
             _react2.default.createElement(
               'div',
-              { className: 'img-thumbnail' },
+              { className: 'img-thumbnail text-center', style: { maxWidth: "max-content", margin: "auto" } },
               _react2.default.createElement('img', { src: './img/myProfilePic.jpg' }),
               _react2.default.createElement(
                 'p',
@@ -1095,7 +1095,7 @@ function content(props) {
             _react2.default.createElement(
               'p',
               { className: 'col mb-0' },
-              '"So... how does that work?"'
+              '"So... how does it work?"'
             ),
             _react2.default.createElement(
               'footer',
@@ -1122,24 +1122,33 @@ function content(props) {
               null,
               'JavaScript, Node.js, Express, React/React-Redux, Redux, Sequelize, PostgreSQL, Socket.io, jQuery, Jasmine, Mocha/Chai, Git/GitHub, HTML/CSS, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe PageMaker, Adobe Image Ready, Adobe Premiere, QuarkXpress, Fontographer, Flash, Director, Corel Draw, Microsoft Front Page, Microsoft Office'
             ),
-            'Email: imdavidy@gmail.com',
-            _react2.default.createElement('br', null),
-            'LinkedIn: https://www.linkedin.com/in/david-yoon-4530538b/',
-            _react2.default.createElement('br', null),
-            'GitHub: https://github.com/imdavidy',
-            _react2.default.createElement('br', null),
-            'Resume: David_Yoon-Resume.pdf'
-          ),
-          _react2.default.createElement(
-            'p',
-            { className: 'h3' },
-            'If you would like to send me a message, please feel free to ',
+            'Email: ',
             _react2.default.createElement(
               'a',
               { href: 'mailto:imdavidy@gmail.com' },
-              'email'
+              'imdavidy@gmail.com'
             ),
-            '.'
+            _react2.default.createElement('br', null),
+            'LinkedIn: ',
+            _react2.default.createElement(
+              'a',
+              { href: 'https://www.linkedin.com/in/david-yoon-4530538b/', target: '_blank' },
+              ' https://www.linkedin.com/in/david-yoon-4530538b/'
+            ),
+            _react2.default.createElement('br', null),
+            'GitHub: ',
+            _react2.default.createElement(
+              'a',
+              { href: 'https://github.com/imdavidy', target: '_blank' },
+              'https://github.com/imdavidy'
+            ),
+            _react2.default.createElement('br', null),
+            'Resume: ',
+            _react2.default.createElement(
+              'a',
+              { href: 'https://drive.google.com/file/d/16KhHcAm9jwme8l29989WsOdNckHhWjfT/view?usp=sharing', target: '_blank' },
+              'David_Yoon-Resume.pdf'
+            )
           )
         )
       ),
@@ -1153,7 +1162,7 @@ function content(props) {
         { className: 'jumbotron' },
         _react2.default.createElement(
           'div',
-          { className: 'row', style: { justifyContent: "center", padding: 4 } },
+          { className: 'row', style: { justifyContent: "center" } },
           _react2.default.createElement(
             'div',
             { className: 'card', style: { width: "216px", display: "block" } },
@@ -1237,7 +1246,9 @@ function content(props) {
     _react2.default.createElement(
       'footer',
       { className: 'text-center' },
-      'Written and coded by David Yoon'
+      'Written and coded by David Yoon',
+      _react2.default.createElement('br', null),
+      _react2.default.createElement('br', null)
     )
   );
 }

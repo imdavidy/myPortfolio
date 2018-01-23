@@ -13,7 +13,7 @@ export default function content(props) {
             </p>
             <div>
               <div className="text-center">
-                <div className="img-thumbnail">
+                <div className="img-thumbnail text-center" style={{maxWidth: "max-content", margin: "auto"}}>
 
                   <img src="./img/myProfilePic.jpg" />
                   <p>
@@ -55,15 +55,13 @@ export default function content(props) {
               <h5>Proficient in the following:</h5>
               <p>JavaScript, Node.js, Express, React/React-Redux, Redux, Sequelize, PostgreSQL, Socket.io, jQuery, Jasmine, Mocha/Chai, Git/GitHub, HTML/CSS, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe PageMaker, Adobe Image Ready, Adobe Premiere, QuarkXpress, Fontographer, Flash, Director, Corel Draw, Microsoft Front Page, Microsoft Office</p>
               
-              Email: imdavidy@gmail.com<br />
-              LinkedIn: https://www.linkedin.com/in/david-yoon-4530538b/<br />
-              GitHub: https://github.com/imdavidy<br />
-              Resume: David_Yoon-Resume.pdf
-            </div>
-            <p className="h3">If you would like to send me a message, please feel free to <a  href="mailto:imdavidy@gmail.com">email</a>.
-            </p>
+              Email: <a  href="mailto:imdavidy@gmail.com">imdavidy@gmail.com</a><br />
+            LinkedIn: <a  href="https://www.linkedin.com/in/david-yoon-4530538b/" target="_blank"> https://www.linkedin.com/in/david-yoon-4530538b/</a><br />
+          GitHub: <a  href="https://github.com/imdavidy" target="_blank">https://github.com/imdavidy</a><br />
+        Resume: <a  href="https://drive.google.com/file/d/16KhHcAm9jwme8l29989WsOdNckHhWjfT/view?usp=sharing" target="_blank">David_Yoon-Resume.pdf</a>
             </div>
           </div>
+        </div>
           <h5 className="display-5 text-center">Projects</h5>
           <div className="jumbotron">
               
@@ -101,7 +99,7 @@ export default function content(props) {
           </div>
           <hr/>
         </div>
-      <footer className="text-center">Written and coded by David Yoon</footer>
+      <footer className="text-center">Written and coded by David Yoon<br/><br/></footer>
     </div>
   )
 }
