@@ -62,7 +62,7 @@ export default function content(props) {
             </div>
           </div>
         </div>
-          <h5 className="display-5 text-center">Projects</h5>
+          <h4 className="display-5 text-center">Projects</h4>
           <div className="jumbotron">
               
                 <div className="row" style={{justifyContent: "center"}}>
@@ -88,11 +88,11 @@ export default function content(props) {
                     </div>
                   </div>
                   <div className="card" style={{width: "216px", display: "block"}}>
-                    <img className="card-img-top" alt="100%x280" style={{width: "216px", display: "block"}} src="./img/fireBaseThumb.png" />
+                    <a href="https://youtu.be/N0WqTclxkaE" target="_blank"><img className="card-img-top" alt="100%x280" style={{width: '216px', display: 'block'}} src="./img/fireBaseThumb.png" />
                     <div className="card-body" style={{padding: 8}}>
                       <h5 className="card-title">Intro to FireBase</h5>
                       <p className="card-text">Intodunction to FireBase</p>
-                    </div>
+                    </div></a>
                   </div>
                 </div>
               

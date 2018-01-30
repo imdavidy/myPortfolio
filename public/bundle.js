@@ -1153,7 +1153,7 @@ function content(props) {
         )
       ),
       _react2.default.createElement(
-        'h5',
+        'h4',
         { className: 'display-5 text-center' },
         'Projects'
       ),
@@ -1223,19 +1223,23 @@ function content(props) {
           _react2.default.createElement(
             'div',
             { className: 'card', style: { width: "216px", display: "block" } },
-            _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/fireBaseThumb.png' }),
             _react2.default.createElement(
-              'div',
-              { className: 'card-body', style: { padding: 8 } },
+              'a',
+              { href: 'https://youtu.be/N0WqTclxkaE', target: '_blank' },
+              _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: '216px', display: 'block' }, src: './img/fireBaseThumb.png' }),
               _react2.default.createElement(
-                'h5',
-                { className: 'card-title' },
-                'Intro to FireBase'
-              ),
-              _react2.default.createElement(
-                'p',
-                { className: 'card-text' },
-                'Intodunction to FireBase'
+                'div',
+                { className: 'card-body', style: { padding: 8 } },
+                _react2.default.createElement(
+                  'h5',
+                  { className: 'card-title' },
+                  'Intro to FireBase'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  { className: 'card-text' },
+                  'Intodunction to FireBase'
+                )
               )
             )
           )
