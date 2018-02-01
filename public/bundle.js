@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 16);
+/******/ 	return __webpack_require__(__webpack_require__.s = 15);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -303,9 +303,9 @@ module.exports = emptyFunction;
 /* WEBPACK VAR INJECTION */(function(process) {
 
 if (process.env.NODE_ENV === 'production') {
-  module.exports = __webpack_require__(17);
+  module.exports = __webpack_require__(16);
 } else {
-  module.exports = __webpack_require__(18);
+  module.exports = __webpack_require__(17);
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
@@ -565,6 +565,52 @@ module.exports = warning;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+
+function checkDCE() {
+  /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */
+  if (
+    typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === 'undefined' ||
+    typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== 'function'
+  ) {
+    return;
+  }
+  if (process.env.NODE_ENV !== 'production') {
+    // This branch is unreachable because this function is only called
+    // in production, but the condition is true only in development.
+    // Therefore if the branch is still here, dead code elimination wasn't
+    // properly applied.
+    // Don't change the message. React DevTools relies on it. Also make sure
+    // this message doesn't occur elsewhere in this function, or it will cause
+    // a false positive.
+    throw new Error('^_^');
+  }
+  try {
+    // Verify that the code above has been dead code eliminated (DCE'd).
+    __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE(checkDCE);
+  } catch (err) {
+    // DevTools shouldn't crash React, no matter what.
+    // We should still report in case we break this code.
+    console.error(err);
+  }
+}
+
+if (process.env.NODE_ENV === 'production') {
+  // DCE check should happen before ReactDOM bundle executes so that
+  // DevTools can report bad minification during injection.
+  checkDCE();
+  module.exports = __webpack_require__(19);
+} else {
+  module.exports = __webpack_require__(22);
+}
+
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -577,7 +623,7 @@ module.exports = warning;
 if (process.env.NODE_ENV !== 'production') {
   var invariant = __webpack_require__(5);
   var warning = __webpack_require__(6);
-  var ReactPropTypesSecret = __webpack_require__(19);
+  var ReactPropTypesSecret = __webpack_require__(18);
   var loggedTypeFailures = {};
 }
 
@@ -624,52 +670,6 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 }
 
 module.exports = checkPropTypes;
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
-
-/***/ }),
-/* 8 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {
-
-function checkDCE() {
-  /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */
-  if (
-    typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === 'undefined' ||
-    typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== 'function'
-  ) {
-    return;
-  }
-  if (process.env.NODE_ENV !== 'production') {
-    // This branch is unreachable because this function is only called
-    // in production, but the condition is true only in development.
-    // Therefore if the branch is still here, dead code elimination wasn't
-    // properly applied.
-    // Don't change the message. React DevTools relies on it. Also make sure
-    // this message doesn't occur elsewhere in this function, or it will cause
-    // a false positive.
-    throw new Error('^_^');
-  }
-  try {
-    // Verify that the code above has been dead code eliminated (DCE'd).
-    __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE(checkDCE);
-  } catch (err) {
-    // DevTools shouldn't crash React, no matter what.
-    // We should still report in case we break this code.
-    console.error(err);
-  }
-}
-
-if (process.env.NODE_ENV === 'production') {
-  // DCE check should happen before ReactDOM bundle executes so that
-  // DevTools can report bad minification during injection.
-  checkDCE();
-  module.exports = __webpack_require__(20);
-} else {
-  module.exports = __webpack_require__(23);
-}
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
@@ -922,7 +922,7 @@ module.exports = shallowEqual;
  * 
  */
 
-var isTextNode = __webpack_require__(21);
+var isTextNode = __webpack_require__(20);
 
 /*eslint-disable no-bitwise */
 
@@ -986,291 +986,13 @@ module.exports = focusNode;
 "use strict";
 
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = content;
-
 var _react = __webpack_require__(2);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(8);
+var _reactDom = __webpack_require__(7);
 
-var _app = __webpack_require__(15);
-
-var _app2 = _interopRequireDefault(_app);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function content(props) {
-  return _react2.default.createElement(
-    'div',
-    null,
-    _react2.default.createElement(
-      'div',
-      null,
-      _react2.default.createElement(
-        'div',
-        { className: 'jumbotron' },
-        _react2.default.createElement(
-          'h1',
-          { className: 'display-4 text-center' },
-          'David Yoon'
-        ),
-        _react2.default.createElement(
-          'p',
-          { className: 'h4 text-center' },
-          _react2.default.createElement(
-            'em',
-            null,
-            'I\'m a creative JavaScript webdeveloper'
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          null,
-          _react2.default.createElement(
-            'div',
-            { className: 'text-center' },
-            _react2.default.createElement(
-              'div',
-              { className: 'img-thumbnail text-center', style: { maxWidth: "max-content", margin: "auto" } },
-              _react2.default.createElement('img', { src: './img/myProfilePic.jpg' }),
-              _react2.default.createElement(
-                'p',
-                null,
-                _react2.default.createElement(
-                  'small',
-                  null,
-                  'David\'s amazing, caught in the wild, profile picture*',
-                  _react2.default.createElement('br', null),
-                  _react2.default.createElement(
-                    'small',
-                    null,
-                    '*Not scale to size. Maybe larger in Real Life'
-                  )
-                )
-              )
-            )
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'row' },
-          _react2.default.createElement(
-            'p',
-            { className: 'h5 col text-center' },
-            'Here\'s a timeline of David\'s Professional life:'
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'row justify-content-md-center' },
-          _react2.default.createElement(
-            'div',
-            { className: 'col-7' },
-            _react2.default.createElement(
-              'ul',
-              null,
-              _react2.default.createElement(
-                'li',
-                null,
-                _react2.default.createElement(
-                  'strong',
-                  null,
-                  '2017'
-                ),
-                '- Graduated Fullstack Academy Immersive Program'
-              )
-            )
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'row justify-content-md-center' },
-          _react2.default.createElement(
-            'blockquote',
-            { className: 'blockquote col-6' },
-            _react2.default.createElement(
-              'p',
-              { className: 'col mb-0' },
-              '"So... how does it work?"'
-            ),
-            _react2.default.createElement(
-              'footer',
-              { className: 'blockquote-footer' },
-              'David Yoon'
-            )
-          ),
-          _react2.default.createElement(
-            'p',
-            null,
-            'Full stack software engineer with previous background 10+ years in graphic design. Having come from a creative background coupled with the analytical skills of a full stack developer, they form a synergy that is very rare and valuable. I believe it\u2019s an indispensable and vital asset for any company or organization to be comprised of to grow. My full stack knowledge is comprised of JavaScript, Node.js, Express, React, Sequelize and PostgresSQL. Accomplished professional with multiple background demonstrating stellar adaptation and problem solving skills across multiple mediums. Has international work experience utilizing English and Korean bilingual ability in the workplace. Strives to introduce the most up to date technology into all projects for a most affective and efficient solution possible.'
-          ),
-          _react2.default.createElement('br', null),
-          _react2.default.createElement(
-            'div',
-            null,
-            _react2.default.createElement(
-              'h5',
-              null,
-              'Proficient in the following:'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'JavaScript, Node.js, Express, React/React-Redux, Redux, Sequelize, PostgreSQL, Socket.io, jQuery, Jasmine, Mocha/Chai, Git/GitHub, HTML/CSS, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe PageMaker, Adobe Image Ready, Adobe Premiere, QuarkXpress, Fontographer, Flash, Director, Corel Draw, Microsoft Front Page, Microsoft Office'
-            ),
-            'Email: ',
-            _react2.default.createElement(
-              'a',
-              { href: 'mailto:imdavidy@gmail.com' },
-              'imdavidy@gmail.com'
-            ),
-            _react2.default.createElement('br', null),
-            'LinkedIn: ',
-            _react2.default.createElement(
-              'a',
-              { href: 'https://www.linkedin.com/in/david-yoon-4530538b/', target: '_blank' },
-              ' https://www.linkedin.com/in/david-yoon-4530538b/'
-            ),
-            _react2.default.createElement('br', null),
-            'GitHub: ',
-            _react2.default.createElement(
-              'a',
-              { href: 'https://github.com/imdavidy', target: '_blank' },
-              'https://github.com/imdavidy'
-            ),
-            _react2.default.createElement('br', null),
-            'Resume: ',
-            _react2.default.createElement(
-              'a',
-              { href: 'https://drive.google.com/file/d/16KhHcAm9jwme8l29989WsOdNckHhWjfT/view?usp=sharing', target: '_blank' },
-              'David_Yoon-Resume.pdf'
-            )
-          )
-        )
-      ),
-      _react2.default.createElement(
-        'h4',
-        { className: 'display-5 text-center' },
-        'Projects'
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'jumbotron' },
-        _react2.default.createElement(
-          'div',
-          { className: 'row', style: { justifyContent: "center" } },
-          _react2.default.createElement(
-            'div',
-            { className: 'card', style: { width: "216px", display: "block" } },
-            _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/codeTapThumb.png' }),
-            _react2.default.createElement(
-              'div',
-              { className: 'card-body', style: { padding: 8 } },
-              _react2.default.createElement(
-                'h5',
-                { className: 'card-title' },
-                'CodeTap'
-              ),
-              _react2.default.createElement(
-                'p',
-                { className: 'card-text' },
-                'Mobile Coding App'
-              )
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'card', style: { width: "216px", display: "block" } },
-            _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/powerMarketThumb.png' }),
-            _react2.default.createElement(
-              'div',
-              { className: 'card-body', style: { padding: 8 } },
-              _react2.default.createElement(
-                'h5',
-                { className: 'card-title' },
-                'PowerMarket'
-              ),
-              _react2.default.createElement(
-                'p',
-                { className: 'card-text' },
-                'E-commerse Website for superpowers'
-              )
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'card', style: { width: "216px", display: "block" } },
-            _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/jayeonThumb.png' }),
-            _react2.default.createElement(
-              'div',
-              { className: 'card-body', style: { padding: 8 } },
-              _react2.default.createElement(
-                'h5',
-                { className: 'card-title' },
-                'Porject: JaYeon'
-              ),
-              _react2.default.createElement(
-                'p',
-                { className: 'card-text' },
-                'Data Visualization for weather information'
-              )
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'card', style: { width: "216px", display: "block" } },
-            _react2.default.createElement(
-              'a',
-              { href: 'https://youtu.be/N0WqTclxkaE', target: '_blank' },
-              _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: '216px', display: 'block' }, src: './img/fireBaseThumb.png' }),
-              _react2.default.createElement(
-                'div',
-                { className: 'card-body', style: { padding: 8 } },
-                _react2.default.createElement(
-                  'h5',
-                  { className: 'card-title' },
-                  'Intro to FireBase'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  { className: 'card-text' },
-                  'Intodunction to FireBase'
-                )
-              )
-            )
-          )
-        )
-      ),
-      _react2.default.createElement('hr', null)
-    ),
-    _react2.default.createElement(
-      'footer',
-      { className: 'text-center' },
-      'Written and coded by David Yoon',
-      _react2.default.createElement('br', null),
-      _react2.default.createElement('br', null)
-    )
-  );
-}
-
-/***/ }),
-/* 16 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _react = __webpack_require__(2);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactDom = __webpack_require__(8);
-
-var _app = __webpack_require__(15);
+var _app = __webpack_require__(27);
 
 var _app2 = _interopRequireDefault(_app);
 
@@ -1279,7 +1001,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 (0, _reactDom.render)(_react2.default.createElement(_app2.default, null), document.getElementById('app'));
 
 /***/ }),
-/* 17 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1307,7 +1029,7 @@ isValidElement:K,version:"16.2.0",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_F
 
 
 /***/ }),
-/* 18 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1333,7 +1055,7 @@ var emptyObject = __webpack_require__(4);
 var invariant = __webpack_require__(5);
 var warning = __webpack_require__(6);
 var emptyFunction = __webpack_require__(1);
-var checkPropTypes = __webpack_require__(7);
+var checkPropTypes = __webpack_require__(8);
 
 // TODO: this is special because it gets imported during build.
 
@@ -2672,7 +2394,7 @@ module.exports = react;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 19 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2691,7 +2413,7 @@ module.exports = ReactPropTypesSecret;
 
 
 /***/ }),
-/* 20 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2927,7 +2649,7 @@ Z.injectIntoDevTools({findFiberByHostInstance:pb,bundleType:0,version:"16.2.0",r
 
 
 /***/ }),
-/* 21 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2942,7 +2664,7 @@ Z.injectIntoDevTools({findFiberByHostInstance:pb,bundleType:0,version:"16.2.0",r
  * @typechecks
  */
 
-var isNode = __webpack_require__(22);
+var isNode = __webpack_require__(21);
 
 /**
  * @param {*} object The object to check.
@@ -2955,7 +2677,7 @@ function isTextNode(object) {
 module.exports = isTextNode;
 
 /***/ }),
-/* 22 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2983,7 +2705,7 @@ function isNode(object) {
 module.exports = isNode;
 
 /***/ }),
-/* 23 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3016,9 +2738,9 @@ var shallowEqual = __webpack_require__(12);
 var containsNode = __webpack_require__(13);
 var focusNode = __webpack_require__(14);
 var emptyObject = __webpack_require__(4);
-var checkPropTypes = __webpack_require__(7);
-var hyphenateStyleName = __webpack_require__(24);
-var camelizeStyleName = __webpack_require__(26);
+var checkPropTypes = __webpack_require__(8);
+var hyphenateStyleName = __webpack_require__(23);
+var camelizeStyleName = __webpack_require__(25);
 
 /**
  * WARNING: DO NOT manually require this module.
@@ -18385,7 +18107,7 @@ module.exports = reactDom;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 24 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18400,7 +18122,7 @@ module.exports = reactDom;
 
 
 
-var hyphenate = __webpack_require__(25);
+var hyphenate = __webpack_require__(24);
 
 var msPattern = /^ms-/;
 
@@ -18427,7 +18149,7 @@ function hyphenateStyleName(string) {
 module.exports = hyphenateStyleName;
 
 /***/ }),
-/* 25 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18463,7 +18185,7 @@ function hyphenate(string) {
 module.exports = hyphenate;
 
 /***/ }),
-/* 26 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18478,7 +18200,7 @@ module.exports = hyphenate;
 
 
 
-var camelize = __webpack_require__(27);
+var camelize = __webpack_require__(26);
 
 var msPattern = /^-ms-/;
 
@@ -18506,7 +18228,7 @@ function camelizeStyleName(string) {
 module.exports = camelizeStyleName;
 
 /***/ }),
-/* 27 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18539,6 +18261,312 @@ function camelize(string) {
 }
 
 module.exports = camelize;
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = content;
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(7);
+
+var _experience = __webpack_require__(28);
+
+var _experience2 = _interopRequireDefault(_experience);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function content(props) {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(
+        'div',
+        { className: 'jumbotron' },
+        _react2.default.createElement(
+          'h1',
+          { className: 'display-4 text-center' },
+          'David Yoon'
+        ),
+        _react2.default.createElement(
+          'p',
+          { className: 'h4 text-center' },
+          _react2.default.createElement(
+            'em',
+            null,
+            'I\'m a creative JavaScript webdeveloper'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'div',
+            { className: 'text-center' },
+            _react2.default.createElement(
+              'div',
+              { className: 'img-thumbnail text-center', style: { maxWidth: "max-content", margin: "auto" } },
+              _react2.default.createElement('img', { src: './img/myProfilePic.jpg' }),
+              _react2.default.createElement(
+                'p',
+                null,
+                _react2.default.createElement(
+                  'small',
+                  null,
+                  'David\'s amazing, caught in the wild, profile picture*',
+                  _react2.default.createElement('br', null),
+                  _react2.default.createElement(
+                    'small',
+                    null,
+                    '*Not scale to size. Maybe larger in Real Life'
+                  )
+                )
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(_experience2.default, null),
+        _react2.default.createElement(
+          'div',
+          { className: 'row justify-content-md-center' },
+          _react2.default.createElement(
+            'blockquote',
+            { className: 'blockquote col-6' },
+            _react2.default.createElement(
+              'p',
+              { className: 'col mb-0' },
+              '"So... how does it work?"'
+            ),
+            _react2.default.createElement(
+              'footer',
+              { className: 'blockquote-footer' },
+              'David Yoon'
+            )
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Full stack software engineer with previous background 10+ years in graphic design. Having come from a creative background coupled with the analytical skills of a full stack developer, they form a synergy that is very rare and valuable. I believe it\u2019s an indispensable and vital asset for any company or organization to be comprised of to grow. My full stack knowledge is comprised of JavaScript, Node.js, Express, React, Sequelize and PostgresSQL. Accomplished professional with multiple background demonstrating stellar adaptation and problem solving skills across multiple mediums. Has international work experience utilizing English and Korean bilingual ability in the workplace. Strives to introduce the most up to date technology into all projects for a most affective and efficient solution possible.'
+          ),
+          _react2.default.createElement('br', null),
+          _react2.default.createElement(
+            'div',
+            null,
+            _react2.default.createElement(
+              'h5',
+              null,
+              'Proficient in the following:'
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'JavaScript, Node.js, Express, React/React-Redux, Redux, Sequelize, PostgreSQL, Socket.io, jQuery, Jasmine, Mocha/Chai, Git/GitHub, HTML/CSS, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe PageMaker, Adobe Image Ready, Adobe Premiere, QuarkXpress, Fontographer, Flash, Director, Corel Draw, Microsoft Front Page, Microsoft Office'
+            ),
+            'Email: ',
+            _react2.default.createElement(
+              'a',
+              { href: 'mailto:imdavidy@gmail.com' },
+              'imdavidy@gmail.com'
+            ),
+            _react2.default.createElement('br', null),
+            'LinkedIn: ',
+            _react2.default.createElement(
+              'a',
+              { href: 'https://www.linkedin.com/in/david-yoon-4530538b/', target: '_blank' },
+              ' https://www.linkedin.com/in/david-yoon-4530538b/'
+            ),
+            _react2.default.createElement('br', null),
+            'GitHub: ',
+            _react2.default.createElement(
+              'a',
+              { href: 'https://github.com/imdavidy', target: '_blank' },
+              'https://github.com/imdavidy'
+            ),
+            _react2.default.createElement('br', null),
+            'Resume: ',
+            _react2.default.createElement(
+              'a',
+              { href: 'https://drive.google.com/file/d/16KhHcAm9jwme8l29989WsOdNckHhWjfT/view?usp=sharing', target: '_blank' },
+              'David_Yoon-Resume.pdf'
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'h4',
+        { className: 'display-5 text-center' },
+        'Projects'
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'jumbotron' },
+        _react2.default.createElement(
+          'div',
+          { className: 'row', style: { justifyContent: "center" } },
+          _react2.default.createElement(
+            'div',
+            { className: 'card', style: { width: "216px", display: "block" } },
+            _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/codeTapThumb.png' }),
+            _react2.default.createElement(
+              'div',
+              { className: 'card-body', style: { padding: 8 } },
+              _react2.default.createElement(
+                'h5',
+                { className: 'card-title' },
+                'CodeTap'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'card-text' },
+                'Mobile Coding App'
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'card', style: { width: "216px", display: "block" } },
+            _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/powerMarketThumb.png' }),
+            _react2.default.createElement(
+              'div',
+              { className: 'card-body', style: { padding: 8 } },
+              _react2.default.createElement(
+                'h5',
+                { className: 'card-title' },
+                'PowerMarket'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'card-text' },
+                'E-commerse Website for superpowers'
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'card', style: { width: "216px", display: "block" } },
+            _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/jayeonThumb.png' }),
+            _react2.default.createElement(
+              'div',
+              { className: 'card-body', style: { padding: 8 } },
+              _react2.default.createElement(
+                'h5',
+                { className: 'card-title' },
+                'Porject: JaYeon'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'card-text' },
+                'Data Visualization for weather information'
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'card', style: { width: "216px", display: "block" } },
+            _react2.default.createElement(
+              'a',
+              { href: 'https://youtu.be/N0WqTclxkaE', target: '_blank' },
+              _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: '216px', display: 'block' }, src: './img/fireBaseThumb.png' }),
+              _react2.default.createElement(
+                'div',
+                { className: 'card-body', style: { padding: 8 } },
+                _react2.default.createElement(
+                  'h5',
+                  { className: 'card-title' },
+                  'Intro to FireBase'
+                ),
+                _react2.default.createElement(
+                  'p',
+                  { className: 'card-text' },
+                  'Intodunction to FireBase'
+                )
+              )
+            )
+          )
+        )
+      ),
+      _react2.default.createElement('hr', null)
+    ),
+    _react2.default.createElement(
+      'footer',
+      { className: 'text-center' },
+      'Written and coded by David Yoon',
+      _react2.default.createElement('br', null),
+      _react2.default.createElement('br', null)
+    )
+  );
+}
+
+/***/ }),
+/* 28 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = content;
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(7);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function content(props) {
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'div',
+      { className: 'row' },
+      _react2.default.createElement(
+        'p',
+        { className: 'h5 col text-center' },
+        'Here\'s a timeline of my Professional life:'
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'row justify-content-md-center' },
+      _react2.default.createElement(
+        'div',
+        { className: 'col-7' },
+        _react2.default.createElement(
+          'ul',
+          null,
+          _react2.default.createElement(
+            'li',
+            null,
+            _react2.default.createElement(
+              'strong',
+              null,
+              '2017'
+            ),
+            '- Graduated Fullstack Academy Immersive Program'
+          )
+        )
+      )
+    )
+  );
+}
 
 /***/ })
 /******/ ]);
