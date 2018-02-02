@@ -18294,203 +18294,149 @@ function content(props) {
   return _react2.default.createElement(
     'div',
     null,
-    _react2.default.createElement(_profile2.default, { names: { hi: "3", bye: "5" } }),
+    _react2.default.createElement(_profile2.default, null),
+    _react2.default.createElement(_experience2.default, null),
     _react2.default.createElement(
       'div',
-      null,
+      { className: 'container' },
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Skills'
+      ),
+      _react2.default.createElement(
+        'h5',
+        null,
+        'Proficient in the following:'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        'JavaScript, Node.js, Express, React/React-Redux, Redux, Sequelize, PostgreSQL, Socket.io, jQuery, Jasmine, Mocha/Chai, Git/GitHub, HTML/CSS, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe PageMaker, Adobe Image Ready, Adobe Premiere, QuarkXpress, Fontographer, Flash, Director, Corel Draw, Microsoft Front Page, Microsoft Office',
+        _react2.default.createElement('br', null),
+        'Email: ',
+        _react2.default.createElement(
+          'a',
+          { href: 'mailto:imdavidy@gmail.com' },
+          'imdavidy@gmail.com'
+        ),
+        _react2.default.createElement('br', null),
+        'LinkedIn: ',
+        _react2.default.createElement(
+          'a',
+          { href: 'https://www.linkedin.com/in/david-yoon-4530538b/', target: '_blank' },
+          ' https://www.linkedin.com/in/david-yoon-4530538b/'
+        ),
+        _react2.default.createElement('br', null),
+        'GitHub: ',
+        _react2.default.createElement(
+          'a',
+          { href: 'https://github.com/imdavidy', target: '_blank' },
+          'https://github.com/imdavidy'
+        ),
+        _react2.default.createElement('br', null),
+        'Resume: ',
+        _react2.default.createElement(
+          'a',
+          { href: 'https://drive.google.com/file/d/16KhHcAm9jwme8l29989WsOdNckHhWjfT/view?usp=sharing', target: '_blank' },
+          'David_Yoon-Resume.pdf'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'h4',
+      { className: 'display-5 text-center' },
+      'Projects'
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'jumbotron' },
       _react2.default.createElement(
         'div',
-        { className: '' },
-        _react2.default.createElement(
-          'h1',
-          { className: 'display-4 text-center' },
-          'David Yoon'
-        ),
-        _react2.default.createElement(
-          'p',
-          { className: 'h4 text-center' },
-          _react2.default.createElement(
-            'em',
-            null,
-            'I\'m a creative JavaScript webdeveloper'
-          )
-        ),
+        { className: 'row', style: { justifyContent: "center" } },
         _react2.default.createElement(
           'div',
-          null,
+          { className: 'card', style: { width: "216px", display: "block" } },
+          _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/codeTapThumb.png' }),
           _react2.default.createElement(
             'div',
-            { className: 'text-center' },
-            _react2.default.createElement(
-              'div',
-              { className: 'img-thumbnail text-center', style: { maxWidth: "max-content", margin: "auto" } },
-              _react2.default.createElement('img', { src: './img/myProfilePic.jpg' }),
-              _react2.default.createElement(
-                'p',
-                null,
-                _react2.default.createElement(
-                  'small',
-                  null,
-                  'David\'s amazing, caught in the wild, profile picture*',
-                  _react2.default.createElement('br', null),
-                  _react2.default.createElement(
-                    'small',
-                    null,
-                    '*Not scale to size. Maybe larger in real life'
-                  )
-                )
-              )
-            )
-          )
-        ),
-        _react2.default.createElement(_experience2.default, null),
-        _react2.default.createElement(
-          'div',
-          { className: 'row justify-content-md-center' },
-          _react2.default.createElement(
-            'p',
-            null,
-            'Full stack software engineer with previous background 10+ years in graphic design. Having come from a creative background coupled with the analytical skills of a full stack developer, they form a synergy that is very rare and valuable. I believe it\u2019s an indispensable and vital asset for any company or organization to be comprised of to grow. My full stack knowledge is comprised of JavaScript, Node.js, Express, React, Sequelize and PostgresSQL. Accomplished professional with multiple background demonstrating stellar adaptation and problem solving skills across multiple mediums. Has international work experience utilizing English and Korean bilingual ability in the workplace. Strives to introduce the most up to date technology into all projects for a most affective and efficient solution possible.'
-          ),
-          _react2.default.createElement('br', null),
-          _react2.default.createElement(
-            'div',
-            null,
+            { className: 'card-body', style: { padding: 8 } },
             _react2.default.createElement(
               'h5',
-              null,
-              'Proficient in the following:'
+              { className: 'card-title' },
+              'CodeTap'
             ),
             _react2.default.createElement(
               'p',
-              null,
-              'JavaScript, Node.js, Express, React/React-Redux, Redux, Sequelize, PostgreSQL, Socket.io, jQuery, Jasmine, Mocha/Chai, Git/GitHub, HTML/CSS, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe PageMaker, Adobe Image Ready, Adobe Premiere, QuarkXpress, Fontographer, Flash, Director, Corel Draw, Microsoft Front Page, Microsoft Office'
-            ),
-            'Email: ',
-            _react2.default.createElement(
-              'a',
-              { href: 'mailto:imdavidy@gmail.com' },
-              'imdavidy@gmail.com'
-            ),
-            _react2.default.createElement('br', null),
-            'LinkedIn: ',
-            _react2.default.createElement(
-              'a',
-              { href: 'https://www.linkedin.com/in/david-yoon-4530538b/', target: '_blank' },
-              ' https://www.linkedin.com/in/david-yoon-4530538b/'
-            ),
-            _react2.default.createElement('br', null),
-            'GitHub: ',
-            _react2.default.createElement(
-              'a',
-              { href: 'https://github.com/imdavidy', target: '_blank' },
-              'https://github.com/imdavidy'
-            ),
-            _react2.default.createElement('br', null),
-            'Resume: ',
-            _react2.default.createElement(
-              'a',
-              { href: 'https://drive.google.com/file/d/16KhHcAm9jwme8l29989WsOdNckHhWjfT/view?usp=sharing', target: '_blank' },
-              'David_Yoon-Resume.pdf'
+              { className: 'card-text' },
+              'Mobile Coding App'
             )
           )
-        )
-      ),
-      _react2.default.createElement(
-        'h4',
-        { className: 'display-5 text-center' },
-        'Projects'
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'jumbotron' },
+        ),
         _react2.default.createElement(
           'div',
-          { className: 'row', style: { justifyContent: "center" } },
+          { className: 'card', style: { width: "216px", display: "block" } },
+          _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/powerMarketThumb.png' }),
           _react2.default.createElement(
             'div',
-            { className: 'card', style: { width: "216px", display: "block" } },
-            _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/codeTapThumb.png' }),
+            { className: 'card-body', style: { padding: 8 } },
+            _react2.default.createElement(
+              'h5',
+              { className: 'card-title' },
+              'PowerMarket'
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'card-text' },
+              'E-commerse Website for superpowers'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'card', style: { width: "216px", display: "block" } },
+          _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/jayeonThumb.png' }),
+          _react2.default.createElement(
+            'div',
+            { className: 'card-body', style: { padding: 8 } },
+            _react2.default.createElement(
+              'h5',
+              { className: 'card-title' },
+              'Porject: JaYeon'
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'card-text' },
+              'Data Visualization for weather information'
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'card', style: { width: "216px", display: "block" } },
+          _react2.default.createElement(
+            'a',
+            { href: 'https://youtu.be/N0WqTclxkaE', target: '_blank' },
+            _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: '216px', display: 'block' }, src: './img/fireBaseThumb.png' }),
             _react2.default.createElement(
               'div',
               { className: 'card-body', style: { padding: 8 } },
               _react2.default.createElement(
                 'h5',
                 { className: 'card-title' },
-                'CodeTap'
+                'Intro to FireBase'
               ),
               _react2.default.createElement(
                 'p',
                 { className: 'card-text' },
-                'Mobile Coding App'
-              )
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'card', style: { width: "216px", display: "block" } },
-            _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/powerMarketThumb.png' }),
-            _react2.default.createElement(
-              'div',
-              { className: 'card-body', style: { padding: 8 } },
-              _react2.default.createElement(
-                'h5',
-                { className: 'card-title' },
-                'PowerMarket'
-              ),
-              _react2.default.createElement(
-                'p',
-                { className: 'card-text' },
-                'E-commerse Website for superpowers'
-              )
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'card', style: { width: "216px", display: "block" } },
-            _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/jayeonThumb.png' }),
-            _react2.default.createElement(
-              'div',
-              { className: 'card-body', style: { padding: 8 } },
-              _react2.default.createElement(
-                'h5',
-                { className: 'card-title' },
-                'Porject: JaYeon'
-              ),
-              _react2.default.createElement(
-                'p',
-                { className: 'card-text' },
-                'Data Visualization for weather information'
-              )
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'card', style: { width: "216px", display: "block" } },
-            _react2.default.createElement(
-              'a',
-              { href: 'https://youtu.be/N0WqTclxkaE', target: '_blank' },
-              _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: '216px', display: 'block' }, src: './img/fireBaseThumb.png' }),
-              _react2.default.createElement(
-                'div',
-                { className: 'card-body', style: { padding: 8 } },
-                _react2.default.createElement(
-                  'h5',
-                  { className: 'card-title' },
-                  'Intro to FireBase'
-                ),
-                _react2.default.createElement(
-                  'p',
-                  { className: 'card-text' },
-                  'Intodunction to FireBase'
-                )
+                'Intodunction to FireBase'
               )
             )
           )
         )
-      ),
-      _react2.default.createElement('hr', null)
+      )
     ),
+    _react2.default.createElement('hr', null),
     _react2.default.createElement(
       'footer',
       { className: 'text-center' },
@@ -19033,7 +18979,7 @@ function profile(props) {
     _react2.default.createElement(
       'p',
       null,
-      'A humble creative JavaScript developer'
+      'A Humble Creative JavaScript Developer'
     ),
     _react2.default.createElement('hr', null),
     _react2.default.createElement(
@@ -19041,8 +18987,7 @@ function profile(props) {
       { className: 'row' },
       _react2.default.createElement(
         'div',
-        { className: 'col-md-4' },
-        _react2.default.createElement('img', { src: './img/myProfilePic.jpg', style: { display: "block", width: "100%" } }),
+        { className: 'col-md-8' },
         _react2.default.createElement(
           'h3',
           null,
@@ -19051,7 +18996,55 @@ function profile(props) {
         _react2.default.createElement(
           'p',
           null,
-          'Full stack software engineer with previous background 10+ years in graphic design. Having come from a creative background coupled with the analytical skills of a full stack developer, they form a synergy that is very rare and valuable. I believe it\u2019s an indispensable and vital asset for any company or organization to be comprised of to grow. My full stack knowledge is comprised of JavaScript, Node.js, Express, React, Sequelize and PostgresSQL. Accomplished professional with multiple background demonstrating stellar adaptation and problem solving skills across multiple mediums. Has international work experience utilizing English and Korean bilingual ability in the workplace. Strives to introduce the most up to date technology into all projects for a most affective and efficient solution possible.'
+          'Full stack software engineer with background of 10+ years in graphic design. Having come from a creative background coupled with the analytical skills of a full stack developer, they form a synergy that is very rare and valuable. I believe it\u2019s an indispensable and vital asset for any company or organization to be comprised of to grow. My full stack knowledge is comprised of JavaScript, Node.js, Express, React, Sequelize and PostgresSQL. Accomplished professional with multiple background demonstrating stellar adaptation and problem solving skills across multiple mediums. Has international work experience utilizing English and Korean bilingual ability in the workplace. Strives to introduce the most up to date technology into all projects for a most affective and efficient solution possible.'
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'col-md-4' },
+        _react2.default.createElement(
+          'div',
+          { className: 'img-thumbnail' },
+          _react2.default.createElement('img', { src: './img/myProfilePic.jpg', style: { width: "100%" } }),
+          _react2.default.createElement(
+            'p',
+            null,
+            _react2.default.createElement(
+              'small',
+              null,
+              'Amazing, caught in the wild, profile picture*',
+              _react2.default.createElement('br', null),
+              _react2.default.createElement(
+                'small',
+                null,
+                '*Not scale to size. Maybe larger in real life'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'Details'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          _react2.default.createElement(
+            'strong',
+            null,
+            'Name:'
+          ),
+          _react2.default.createElement('br', null),
+          'David Yoon',
+          _react2.default.createElement('br', null),
+          _react2.default.createElement(
+            'strong',
+            null,
+            'Location:'
+          ),
+          _react2.default.createElement('br', null),
+          'New York, NY'
         )
       )
     )
