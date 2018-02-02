@@ -1,7 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 
-export default function content(props) {
+export default function experience(props) {
   return (
     <div className="container">
       <h2>Experiences</h2>
@@ -201,16 +201,6 @@ export default function content(props) {
           </div>
         </div>
       </div>
-      {// <div className="row justify-content-md-center">
-      //   <div className="col-7">
-      //     <ul>
-      //       <li>
-      //         <strong>2017</strong>
-      //         - Graduated Fullstack Academy Immersive Program</li>
-      //     </ul>
-      //   </div>
-      // </div>
-    }
     </div>
   )
 }
