@@ -26,10 +26,6 @@ export default function content(props) {
             </div>
             <Experience />
             <div className="row justify-content-md-center">
-              <blockquote className="blockquote col-6">
-                <p className="col mb-0">"So... how does it work?"</p>
-                <footer className="blockquote-footer">David Yoon</footer>
-              </blockquote>
               <p>
               Full stack software engineer with previous background 10+ years in graphic design. Having come from a creative background coupled with the analytical skills of a full stack developer, they form a synergy that is very rare and valuable. I believe it’s an indispensable and vital asset for any company or organization to be comprised of to grow. My full stack knowledge is comprised of JavaScript, Node.js, Express, React, Sequelize and PostgresSQL.
               
