@@ -18533,38 +18533,127 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function content(props) {
   return _react2.default.createElement(
     'div',
-    null,
+    { className: 'container text-center' },
     _react2.default.createElement(
-      'div',
-      { className: 'row' },
-      _react2.default.createElement(
-        'p',
-        { className: 'h5 col text-center' },
-        'Here\'s a timeline of my Professional life:'
-      )
+      'h2',
+      null,
+      'Experiences'
+    ),
+    _react2.default.createElement(
+      'q',
+      null,
+      'The first step is half the journey.'
+    ),
+    _react2.default.createElement('hr', null),
+    _react2.default.createElement(
+      'h3',
+      null,
+      'Career'
     ),
     _react2.default.createElement(
       'div',
-      { className: 'row justify-content-md-center' },
+      { className: 'experiences' },
       _react2.default.createElement(
         'div',
-        { className: 'col-7' },
+        { className: 'experience row' },
         _react2.default.createElement(
-          'ul',
+          'div',
           null,
           _react2.default.createElement(
-            'li',
+            'h4',
+            null,
+            'Fullstack Academy of Code'
+          ),
+          _react2.default.createElement(
+            'p',
+            { className: 'dates' },
+            'September 2017'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'p',
             null,
             _react2.default.createElement(
               'strong',
               null,
-              '2017'
-            ),
-            '- Graduated Fullstack Academy Immersive Program'
+              'Immersive Full stack software development program'
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'experience row' },
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'h4',
+            null,
+            'Art Institute of Atlanta'
+          ),
+          _react2.default.createElement(
+            'p',
+            { className: 'dates' },
+            'September 2005'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'p',
+            null,
+            _react2.default.createElement(
+              'strong',
+              null,
+              'Bachelor of Fine Art, Graphic Design'
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'experience row' },
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'h4',
+            null,
+            'University of Georgia'
+          ),
+          _react2.default.createElement(
+            'p',
+            { className: 'dates' },
+            '2003'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'p',
+            null,
+            _react2.default.createElement(
+              'strong',
+              null,
+              'Course work in General Education'
+            )
           )
         )
       )
-    )
+    ),
+    _react2.default.createElement('hr', null),
+    _react2.default.createElement(
+      'h3',
+      null,
+      'Education'
+    ),
+    _react2.default.createElement('div', null)
   );
 }
 
