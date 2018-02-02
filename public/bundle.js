@@ -18331,7 +18331,7 @@ function content(props) {
                   _react2.default.createElement(
                     'small',
                     null,
-                    '*Not scale to size. Maybe larger in Real Life'
+                    '*Not scale to size. Maybe larger in real life'
                   )
                 )
               )
@@ -18533,7 +18533,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function content(props) {
   return _react2.default.createElement(
     'div',
-    { className: 'container text-center' },
+    { className: 'container' },
     _react2.default.createElement(
       'h2',
       null,
@@ -18543,6 +18543,17 @@ function content(props) {
       'q',
       null,
       'The first step is half the journey.'
+    ),
+    _react2.default.createElement('br', null),
+    _react2.default.createElement(
+      'p',
+      null,
+      '- ',
+      _react2.default.createElement(
+        'i',
+        null,
+        'someone (if no one, then me.)'
+      )
     ),
     _react2.default.createElement('hr', null),
     _react2.default.createElement(
@@ -18558,7 +18569,247 @@ function content(props) {
         { className: 'experience row' },
         _react2.default.createElement(
           'div',
-          null,
+          { className: 'col-md-4' },
+          _react2.default.createElement(
+            'h4',
+            null,
+            'Freelance Graphic Designer'
+          ),
+          _react2.default.createElement(
+            'p',
+            { className: 'dates' },
+            'Feb. 2013 - Apr. 2017'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'col-md-8' },
+          _react2.default.createElement(
+            'p',
+            null,
+            _react2.default.createElement(
+              'strong',
+              null,
+              'Graphic Designer | Consultant'
+            ),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement('span', { className: 'experience-description' }),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement(
+              'span',
+              { className: 'experience-details' },
+              _react2.default.createElement(
+                'span',
+                { className: 'location' },
+                'Columbus, GA'
+              )
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'experience row' },
+        _react2.default.createElement(
+          'div',
+          { className: 'col-md-4' },
+          _react2.default.createElement(
+            'h4',
+            null,
+            'Pagoda Jr.',
+            _react2.default.createElement(
+              'small',
+              null,
+              '(ByeongJeom Campus)'
+            )
+          ),
+          _react2.default.createElement(
+            'p',
+            { className: 'dates' },
+            'Sep. 2010 - Nov. 2012'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'col-md-8' },
+          _react2.default.createElement(
+            'p',
+            null,
+            _react2.default.createElement(
+              'strong',
+              null,
+              'English Instructor'
+            ),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement('span', { className: 'experience-description' }),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement(
+              'span',
+              { className: 'experience-details' },
+              _react2.default.createElement(
+                'span',
+                { className: 'location' },
+                'HwaSeong, South Korea'
+              )
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'experience row' },
+        _react2.default.createElement(
+          'div',
+          { className: 'col-md-4' },
+          _react2.default.createElement(
+            'h4',
+            null,
+            'Jungchul Jr.',
+            _react2.default.createElement(
+              'small',
+              null,
+              '(ByeongJeom Campus)'
+            )
+          ),
+          _react2.default.createElement(
+            'p',
+            { className: 'dates' },
+            'May 2008 - Aug. 2010'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'col-md-8' },
+          _react2.default.createElement(
+            'p',
+            null,
+            _react2.default.createElement(
+              'strong',
+              null,
+              'English Instructor'
+            ),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement('span', { className: 'experience-description' }),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement(
+              'span',
+              { className: 'experience-details' },
+              _react2.default.createElement(
+                'span',
+                { className: 'location' },
+                'HwaSeong, South Korea'
+              )
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'experience row' },
+        _react2.default.createElement(
+          'div',
+          { className: 'col-md-4' },
+          _react2.default.createElement(
+            'h4',
+            null,
+            'Atlanta Graphics & Printing'
+          ),
+          _react2.default.createElement(
+            'p',
+            { className: 'dates' },
+            'Jan. 2004 - Feb. 2008'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'col-md-8' },
+          _react2.default.createElement(
+            'p',
+            null,
+            _react2.default.createElement(
+              'strong',
+              null,
+              'Graphic Designer / Production Manager         '
+            ),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement('span', { className: 'experience-description' }),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement(
+              'span',
+              { className: 'experience-details' },
+              _react2.default.createElement(
+                'span',
+                { className: 'location' },
+                'Duluth, GA'
+              )
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'experience row' },
+        _react2.default.createElement(
+          'div',
+          { className: 'col-md-4' },
+          _react2.default.createElement(
+            'h4',
+            null,
+            'Pagoda Jr.',
+            _react2.default.createElement(
+              'small',
+              null,
+              '(ByeongJeom Campus)'
+            )
+          ),
+          _react2.default.createElement(
+            'p',
+            { className: 'dates' },
+            '... - ...'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'col-md-8' },
+          _react2.default.createElement(
+            'p',
+            null,
+            _react2.default.createElement(
+              'strong',
+              null,
+              'Job Title'
+            ),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement('span', { className: 'experience-description' }),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement(
+              'span',
+              { className: 'experience-details' },
+              _react2.default.createElement(
+                'span',
+                { className: 'location' },
+                'Earth, Milky Way'
+              )
+            )
+          )
+        )
+      )
+    ),
+    _react2.default.createElement('hr', null),
+    _react2.default.createElement(
+      'h3',
+      null,
+      'Education'
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'experiences' },
+      _react2.default.createElement(
+        'div',
+        { className: 'experience row' },
+        _react2.default.createElement(
+          'div',
+          { className: 'col-md-4' },
           _react2.default.createElement(
             'h4',
             null,
@@ -18572,7 +18823,7 @@ function content(props) {
         ),
         _react2.default.createElement(
           'div',
-          null,
+          { className: 'col-md-8' },
           _react2.default.createElement(
             'p',
             null,
@@ -18589,7 +18840,7 @@ function content(props) {
         { className: 'experience row' },
         _react2.default.createElement(
           'div',
-          null,
+          { className: 'col-md-4' },
           _react2.default.createElement(
             'h4',
             null,
@@ -18603,7 +18854,7 @@ function content(props) {
         ),
         _react2.default.createElement(
           'div',
-          null,
+          { className: 'col-md-8' },
           _react2.default.createElement(
             'p',
             null,
@@ -18620,7 +18871,7 @@ function content(props) {
         { className: 'experience row' },
         _react2.default.createElement(
           'div',
-          null,
+          { className: 'col-md-4' },
           _react2.default.createElement(
             'h4',
             null,
@@ -18634,7 +18885,7 @@ function content(props) {
         ),
         _react2.default.createElement(
           'div',
-          null,
+          { className: 'col-md-8' },
           _react2.default.createElement(
             'p',
             null,
@@ -18646,14 +18897,7 @@ function content(props) {
           )
         )
       )
-    ),
-    _react2.default.createElement('hr', null),
-    _react2.default.createElement(
-      'h3',
-      null,
-      'Education'
-    ),
-    _react2.default.createElement('div', null)
+    )
   );
 }
 

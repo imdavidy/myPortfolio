@@ -18,7 +18,7 @@ export default function content(props) {
                   <img src="./img/myProfilePic.jpg" />
                   <p>
                     <small>David's amazing, caught in the wild, profile picture*<br/>
-                      <small>*Not scale to size. Maybe larger in Real Life</small>
+                      <small>*Not scale to size. Maybe larger in real life</small>
                     </small>
                   </p>
                 </div>
