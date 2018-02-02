@@ -18284,18 +18284,23 @@ var _experience = __webpack_require__(28);
 
 var _experience2 = _interopRequireDefault(_experience);
 
+var _profile = __webpack_require__(29);
+
+var _profile2 = _interopRequireDefault(_profile);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function content(props) {
   return _react2.default.createElement(
     'div',
     null,
+    _react2.default.createElement(_profile2.default, { names: { hi: "3", bye: "5" } }),
     _react2.default.createElement(
       'div',
       null,
       _react2.default.createElement(
         'div',
-        { className: 'jumbotron' },
+        { className: '' },
         _react2.default.createElement(
           'h1',
           { className: 'display-4 text-center' },
@@ -18506,7 +18511,7 @@ function content(props) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = content;
+exports.default = experience;
 
 var _react = __webpack_require__(2);
 
@@ -18516,7 +18521,7 @@ var _reactDom = __webpack_require__(7);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function content(props) {
+function experience(props) {
   return _react2.default.createElement(
     'div',
     { className: 'container' },
@@ -18990,6 +18995,63 @@ function content(props) {
               'Course work in General Education'
             )
           )
+        )
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = profile;
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(7);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function profile(props) {
+  return _react2.default.createElement(
+    'div',
+    { className: 'container' },
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Profile'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'A humble creative JavaScript developer'
+    ),
+    _react2.default.createElement('hr', null),
+    _react2.default.createElement(
+      'div',
+      { className: 'row' },
+      _react2.default.createElement(
+        'div',
+        { className: 'col-md-4' },
+        _react2.default.createElement('img', { src: './img/myProfilePic.jpg', style: { display: "block", width: "100%" } }),
+        _react2.default.createElement(
+          'h3',
+          null,
+          'About me'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'Full stack software engineer with previous background 10+ years in graphic design. Having come from a creative background coupled with the analytical skills of a full stack developer, they form a synergy that is very rare and valuable. I believe it\u2019s an indispensable and vital asset for any company or organization to be comprised of to grow. My full stack knowledge is comprised of JavaScript, Node.js, Express, React, Sequelize and PostgresSQL. Accomplished professional with multiple background demonstrating stellar adaptation and problem solving skills across multiple mediums. Has international work experience utilizing English and Korean bilingual ability in the workplace. Strives to introduce the most up to date technology into all projects for a most affective and efficient solution possible.'
         )
       )
     )
