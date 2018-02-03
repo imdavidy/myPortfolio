@@ -18288,6 +18288,14 @@ var _profile = __webpack_require__(31);
 
 var _profile2 = _interopRequireDefault(_profile);
 
+var _skills = __webpack_require__(32);
+
+var _skills2 = _interopRequireDefault(_skills);
+
+var _projects = __webpack_require__(33);
+
+var _projects2 = _interopRequireDefault(_projects);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function content(props) {
@@ -18296,146 +18304,8 @@ function content(props) {
     null,
     _react2.default.createElement(_profile2.default, null),
     _react2.default.createElement(_experience2.default, null),
-    _react2.default.createElement(
-      'div',
-      { className: 'container' },
-      _react2.default.createElement(
-        'h2',
-        null,
-        'Skills'
-      ),
-      _react2.default.createElement(
-        'h5',
-        null,
-        'Proficient in the following:'
-      ),
-      _react2.default.createElement(
-        'p',
-        null,
-        'JavaScript, Node.js, Express, React/React-Redux, Redux, Sequelize, PostgreSQL, Socket.io, jQuery, Jasmine, Mocha/Chai, Git/GitHub, HTML/CSS, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe PageMaker, Adobe Image Ready, Adobe Premiere, QuarkXpress, Fontographer, Flash, Director, Corel Draw, Microsoft Front Page, Microsoft Office',
-        _react2.default.createElement('br', null),
-        'Email: ',
-        _react2.default.createElement(
-          'a',
-          { href: 'mailto:imdavidy@gmail.com' },
-          'imdavidy@gmail.com'
-        ),
-        _react2.default.createElement('br', null),
-        'LinkedIn: ',
-        _react2.default.createElement(
-          'a',
-          { href: 'https://www.linkedin.com/in/david-yoon-4530538b/', target: '_blank' },
-          ' https://www.linkedin.com/in/david-yoon-4530538b/'
-        ),
-        _react2.default.createElement('br', null),
-        'GitHub: ',
-        _react2.default.createElement(
-          'a',
-          { href: 'https://github.com/imdavidy', target: '_blank' },
-          'https://github.com/imdavidy'
-        ),
-        _react2.default.createElement('br', null),
-        'Resume: ',
-        _react2.default.createElement(
-          'a',
-          { href: 'https://drive.google.com/file/d/16KhHcAm9jwme8l29989WsOdNckHhWjfT/view?usp=sharing', target: '_blank' },
-          'David_Yoon-Resume.pdf'
-        )
-      )
-    ),
-    _react2.default.createElement(
-      'h4',
-      { className: 'display-5 text-center' },
-      'Projects'
-    ),
-    _react2.default.createElement(
-      'div',
-      { className: 'jumbotron' },
-      _react2.default.createElement(
-        'div',
-        { className: 'row', style: { justifyContent: "center" } },
-        _react2.default.createElement(
-          'div',
-          { className: 'card', style: { width: "216px", display: "block" } },
-          _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/codeTapThumb.png' }),
-          _react2.default.createElement(
-            'div',
-            { className: 'card-body', style: { padding: 8 } },
-            _react2.default.createElement(
-              'h5',
-              { className: 'card-title' },
-              'CodeTap'
-            ),
-            _react2.default.createElement(
-              'p',
-              { className: 'card-text' },
-              'Mobile Coding App'
-            )
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'card', style: { width: "216px", display: "block" } },
-          _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/powerMarketThumb.png' }),
-          _react2.default.createElement(
-            'div',
-            { className: 'card-body', style: { padding: 8 } },
-            _react2.default.createElement(
-              'h5',
-              { className: 'card-title' },
-              'PowerMarket'
-            ),
-            _react2.default.createElement(
-              'p',
-              { className: 'card-text' },
-              'E-commerse Website for superpowers'
-            )
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'card', style: { width: "216px", display: "block" } },
-          _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: "216px", display: "block" }, src: './img/jayeonThumb.png' }),
-          _react2.default.createElement(
-            'div',
-            { className: 'card-body', style: { padding: 8 } },
-            _react2.default.createElement(
-              'h5',
-              { className: 'card-title' },
-              'Porject: JaYeon'
-            ),
-            _react2.default.createElement(
-              'p',
-              { className: 'card-text' },
-              'Data Visualization for weather information'
-            )
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'card', style: { width: "216px", display: "block" } },
-          _react2.default.createElement(
-            'a',
-            { href: 'https://youtu.be/N0WqTclxkaE', target: '_blank' },
-            _react2.default.createElement('img', { className: 'card-img-top', alt: '100%x280', style: { width: '216px', display: 'block' }, src: './img/fireBaseThumb.png' }),
-            _react2.default.createElement(
-              'div',
-              { className: 'card-body', style: { padding: 8 } },
-              _react2.default.createElement(
-                'h5',
-                { className: 'card-title' },
-                'Intro to FireBase'
-              ),
-              _react2.default.createElement(
-                'p',
-                { className: 'card-text' },
-                'Intodunction to FireBase'
-              )
-            )
-          )
-        )
-      )
-    ),
+    _react2.default.createElement(_skills2.default, null),
+    _react2.default.createElement(_projects2.default, null),
     _react2.default.createElement('hr', null),
     _react2.default.createElement(
       'footer',
@@ -19047,6 +18917,199 @@ function profile(props) {
           ),
           _react2.default.createElement('br', null),
           'New York, NY'
+        )
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 32 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = skills;
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(5);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function skills(props) {
+  return _react2.default.createElement(
+    'div',
+    { className: 'container' },
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Skills'
+    ),
+    _react2.default.createElement(
+      'h5',
+      null,
+      'Proficient in the following:'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'JavaScript, Node.js, Express, React/React-Redux, Redux, Sequelize, PostgreSQL, Socket.io, jQuery, Jasmine, Mocha/Chai, Git/GitHub, HTML/CSS, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe PageMaker, Adobe Image Ready, Adobe Premiere, QuarkXpress, Fontographer, Flash, Director, Corel Draw, Microsoft Front Page, Microsoft Office'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Email: ',
+      _react2.default.createElement(
+        'a',
+        { href: 'mailto:imdavidy@gmail.com' },
+        'imdavidy@gmail.com'
+      ),
+      _react2.default.createElement('br', null),
+      'LinkedIn: ',
+      _react2.default.createElement(
+        'a',
+        { href: 'https://www.linkedin.com/in/david-yoon-4530538b/', target: '_blank' },
+        ' https://www.linkedin.com/in/david-yoon-4530538b/'
+      ),
+      _react2.default.createElement('br', null),
+      'GitHub: ',
+      _react2.default.createElement(
+        'a',
+        { href: 'https://github.com/imdavidy', target: '_blank' },
+        'https://github.com/imdavidy'
+      ),
+      _react2.default.createElement('br', null),
+      'Resume: ',
+      _react2.default.createElement(
+        'a',
+        { href: 'https://drive.google.com/file/d/16KhHcAm9jwme8l29989WsOdNckHhWjfT/view?usp=sharing', target: '_blank' },
+        'David_Yoon-Resume.pdf'
+      )
+    )
+  );
+}
+
+/***/ }),
+/* 33 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = projects;
+
+var _react = __webpack_require__(1);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(5);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function projects(props) {
+  return _react2.default.createElement(
+    'div',
+    { className: 'container' },
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Projects'
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'row' },
+      _react2.default.createElement(
+        'div',
+        { className: 'card', style: { maxWidth: "216px", overflow: "auto" } },
+        _react2.default.createElement('img', { className: 'card-img-top', src: './img/codeTapThumb.png' }),
+        _react2.default.createElement(
+          'div',
+          { className: 'card-body' },
+          _react2.default.createElement(
+            'h5',
+            { className: 'card-title' },
+            'CodeTap'
+          ),
+          _react2.default.createElement(
+            'p',
+            { className: 'card-text' },
+            'Mobile Coding App'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'card', style: { maxWidth: "216px", overflow: "auto" } },
+        _react2.default.createElement('img', { className: 'card-img-top', src: './img/powerMarketThumb.png' }),
+        _react2.default.createElement(
+          'div',
+          { className: 'card-body' },
+          _react2.default.createElement(
+            'h5',
+            { className: 'card-title' },
+            'PowerMarket'
+          ),
+          _react2.default.createElement(
+            'p',
+            { className: 'card-text' },
+            'E-commerse Website for superpowers'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'card', style: { maxWidth: "216px", overflow: "auto" } },
+        _react2.default.createElement(
+          'a',
+          { href: '', target: '_blank' },
+          _react2.default.createElement('img', { className: 'card-img-top', src: './img/jayeonThumb.png' }),
+          _react2.default.createElement(
+            'div',
+            { className: 'card-body' },
+            _react2.default.createElement(
+              'h5',
+              { className: 'card-title' },
+              'Porject: JaYeon'
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'card-text' },
+              'Data Visualization for weather information'
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'card', style: { maxWidth: "216px", overflow: "auto" } },
+        _react2.default.createElement(
+          'a',
+          { href: 'https://youtu.be/N0WqTclxkaE', target: '_blank' },
+          _react2.default.createElement('img', { className: 'card-img-top', src: './img/fireBaseThumb.png' }),
+          _react2.default.createElement(
+            'div',
+            { className: 'card-body' },
+            _react2.default.createElement(
+              'h5',
+              { className: 'card-title' },
+              'Intro to FireBase'
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'card-text' },
+              'Intodunction to FireBase'
+            )
+          )
         )
       )
     )
