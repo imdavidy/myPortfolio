@@ -12,7 +12,7 @@ export default function profile(props) {
           <h3>About me</h3>
           <p>
             Full stack software engineer with background of 10+ years in graphic design. Having come from a creative background coupled with the analytical skills of a full stack developer, they form a synergy that is very rare and valuable. I believe it’s an indispensable and vital asset for any company or organization to be comprised of to grow. My full stack knowledge is comprised of JavaScript, Node.js, Express, React, Sequelize and PostgresSQL.
-          
+            
             Accomplished professional with multiple background demonstrating stellar adaptation and problem solving skills across multiple mediums.
             Has international work experience utilizing English and Korean bilingual ability in the workplace.
             
