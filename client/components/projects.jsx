@@ -6,7 +6,7 @@ export default function projects(props) {
     <div className="container">
       <h2>Projects</h2>
       <div className="row">
-        <div className="card" style={{maxWidth: "216px", overflow: "auto"}}>
+        <div className="card" style={{width: "auto", height:"auto", overflow: "auto"}}>
           <img className="card-img-top" src="./img/codeTapThumb.png" />
           <div className="card-body">
             <h5 className="card-title">CodeTap</h5>

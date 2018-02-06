@@ -8,6 +8,12 @@ import Projects from './components/projects'
 export default function content(props) {
   return (
     <div>
+      <div className="jumbotron">
+        <div className="container">
+          <h1>David Yoon</h1>
+          <hr />
+        </div>
+      </div>
       <Profile />
       <Experience />
       <Skills />
