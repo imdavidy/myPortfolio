@@ -10,13 +10,17 @@ export default function skills(props) {
         JavaScript, Node.js, Express, React/React-Redux, Redux, Sequelize, PostgreSQL, Socket.io, jQuery, Jasmine, Mocha/Chai, Git/GitHub, HTML/CSS, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe PageMaker, Adobe Image Ready, Adobe Premiere, QuarkXpress, Fontographer, Flash, Director, Corel Draw, Microsoft Front Page, Microsoft Office
       </p>
       <p>
-        Email: <a  href="mailto:imdavidy@gmail.com">imdavidy@gmail.com</a>
+        <a  href="mailto:imdavidy@gmail.com">
+          <i class="fas fa-envelope fa-lg"></i> imdavidy@gmail.com</a>
         <br />
-        LinkedIn: <a  href="https://www.linkedin.com/in/david-yoon-4530538b/" target="_blank"> https://www.linkedin.com/in/david-yoon-4530538b/</a>
+        <a  href="https://www.linkedin.com/in/david-yoon-4530538b/" target="_blank">
+          <i class="fab fa-linkedin fa-lg"></i> https://www.linkedin.com/in/david-yoon-4530538b/</a>
         <br />
-        GitHub: <a  href="https://github.com/imdavidy" target="_blank">https://github.com/imdavidy</a>
+        <a  href="https://github.com/imdavidy" target="_blank">
+          <i class="fab fa-github fa-lg"></i> https://github.com/imdavidy</a>
         <br />
-        Resume: <a  href="https://drive.google.com/file/d/16KhHcAm9jwme8l29989WsOdNckHhWjfT/view?usp=sharing" target="_blank">David_Yoon-Resume.pdf</a>
+        <a  href="https://drive.google.com/file/d/16KhHcAm9jwme8l29989WsOdNckHhWjfT/view?usp=sharing" target="_blank">
+          <i class="far fa-file-pdf fa-lg" /> David_Yoon-Resume.pdf</a>
       </p>  
     </div>
   )
