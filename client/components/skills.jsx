@@ -11,16 +11,16 @@ export default function skills(props) {
       </p>
       <p>
         <a  href="mailto:imdavidy@gmail.com">
-          <i class="fas fa-envelope fa-lg"></i> imdavidy@gmail.com</a>
+          <i className="fas fa-envelope fa-lg"></i> imdavidy@gmail.com</a>
         <br />
         <a  href="https://www.linkedin.com/in/david-yoon-4530538b/" target="_blank">
-          <i class="fab fa-linkedin fa-lg"></i> https://www.linkedin.com/in/david-yoon-4530538b/</a>
+          <i className="fab fa-linkedin fa-lg"></i> https://www.linkedin.com/in/david-yoon-4530538b/</a>
         <br />
         <a  href="https://github.com/imdavidy" target="_blank">
-          <i class="fab fa-github fa-lg"></i> https://github.com/imdavidy</a>
+          <i className="fab fa-github fa-lg"></i> https://github.com/imdavidy</a>
         <br />
         <a  href="https://drive.google.com/file/d/16KhHcAm9jwme8l29989WsOdNckHhWjfT/view?usp=sharing" target="_blank">
-          <i class="far fa-file-pdf fa-lg" /> David_Yoon-Resume.pdf</a>
+          <i className="far fa-file-pdf fa-lg" /> David_Yoon-Resume.pdf</a>
       </p>  
     </div>
   )
