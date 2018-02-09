@@ -3,7 +3,7 @@ import {render} from 'react-dom';
 
 export default function skills(props) {
   return (
-    <div className="container">
+    <div className="container" id="skills">
       <h2>Skills</h2>
       <h5>Proficient in the following:</h5>
       <p>

@@ -1,9 +1,12 @@
 import React from 'react';
 import {render} from 'react-dom';
 
+// let myStyle = {
+//   backgroundColor: yellow
+// };
 export default function profile(props) {
   return (
-    <div className="container">
+    <div className="container" id="profile" style={{backgroundColor: "lightgray"}}>
       <h2>Profile</h2>
       <p>A Humble Creative JavaScript Developer</p>
       <hr />

@@ -3,7 +3,7 @@ import {render} from 'react-dom';
 
 export default function projects(props) {
   return (
-    <div className="container">
+    <div className="container" id="projects">
       <h2>Projects</h2>
       <div className="row">
         <div className="card" style={{width: "auto", height:"auto", overflow: "auto"}}>
