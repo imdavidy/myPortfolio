@@ -1,13 +1,14 @@
 $default-font-color: #AFB1B6;
 
 body {
-  
+  background: beige;
 }
 
 .card {
   height: "auto";
   width: "auto";
   overflow: "auto";
+  margin-bottom: 20px;
 }
 
 .container {
@@ -17,8 +18,8 @@ body {
 
 .jumbotron {
   height: 100vmin;
-  // background: url(https://farm4.staticflickr.com/3775/9340883744_22d9614c01_k.jpg);
-  background-size: contain;
+  background: url(http://ak7.picdn.net/shutterstock/videos/7215547/thumb/2.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   h1 {
     text-align: center;
