@@ -1,9 +1,16 @@
 $default-font-color: #AFB1B6;
 
 body {
-  background: beige;
+  background: #c2c1bc;
 }
 
+a {
+  color: #b61910;
+}
+
+a:hover {
+  color: #7dd682;
+}
 .card {
   height: "auto";
   width: "auto";
