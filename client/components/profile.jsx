@@ -6,7 +6,7 @@ import {render} from 'react-dom';
 // };
 export default function profile(props) {
   return (
-    <div className="container" id="profile" style={{backgroundColor: "lightgray"}}>
+    <div className="container" id="profile">
       <h2>Profile</h2>
       <p>A Humble Creative JavaScript Developer</p>
       <hr />

@@ -3,3 +3,27 @@ $default-font-color: #AFB1B6;
 body {
   
 }
+
+.card {
+  height: "auto";
+  width: "auto";
+  overflow: "auto";
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.jumbotron {
+  height: 100vmin;
+  // background: url(https://farm4.staticflickr.com/3775/9340883744_22d9614c01_k.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: coolgray;
+  h1 {
+    text-align: center;
+    font-weight: 300;
+  }
+}
+
