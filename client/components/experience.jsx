@@ -3,7 +3,8 @@ import {render} from 'react-dom';
 
 export default function experience(props) {
   return (
-    <div className="container" id="experience">
+    <div className="background-white">
+      <div className="container" id="experience">
       <h2>Experiences</h2>
       <q>
         The first step is half the journey.
@@ -202,5 +203,6 @@ export default function experience(props) {
         </div>
       </div>
     </div>
+  </div>
   )
 }

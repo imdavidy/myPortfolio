@@ -3,10 +3,11 @@ import {render} from 'react-dom';
 
 export default function projects(props) {
   return (
-    <div className="container" id="projects">
+    <div className="background-white">
+      <div className="container" id="projects">
       <h2>Projects</h2>
       <div className="row">
-        <div className="card">
+        <div className="col-md-6 col-sm-12 col-xs-12">
           <a href="https://www.youtube.com/watch?v=mVvqV6G-RRY" target="_blank">
             <img className="card-img-top" src="./img/codeTapThumb.png" />
             <div className="card-body">
@@ -15,7 +16,7 @@ export default function projects(props) {
             </div>
           </a>
         </div>
-        <div className="card">
+        <div className="col-md-6 col-sm-12 col-xs-12">
           <a href="http://power-market.herokuapp.com/" target="_blank">
             <img className="card-img-top" src="./img/powerMarketThumb.png" />
             <div className="card-body">
@@ -24,7 +25,7 @@ export default function projects(props) {
             </div>
           </a>
         </div>
-        <div className="card">
+        <div className="col-md-6 col-sm-12 col-xs-12">
           <a href="https://www.youtube.com/watch?v=Wy-KWzXf120" target="_blank">
             <img className="card-img-top" src="./img/jayeonThumb.png" />
             <div className="card-body">
@@ -33,7 +34,7 @@ export default function projects(props) {
             </div>
           </a>
         </div>
-        <div className="card">
+        <div className="col-md-6 col-sm-12 col-xs-12">
           <a href="https://youtu.be/N0WqTclxkaE" target="_blank">
             <img className="card-img-top" src="./img/fireBaseThumb.png" />
             <div className="card-body">
@@ -44,5 +45,6 @@ export default function projects(props) {
         </div>
       </div>
     </div>
+  </div>
   )
 }

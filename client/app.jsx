@@ -3,7 +3,8 @@ import {render} from 'react-dom';
 import Experience from './components/experience';
 import Profile from './components/profile';
 import Skills from './components/skills';
-import Projects from './components/projects'
+import Projects from './components/projects';
+import Contact from './components/contact'
 
 export default function content(props) {
   return (
@@ -11,10 +12,11 @@ export default function content(props) {
       <div className="jumbotron">
         <div className="container">
           <h1>David Yoon</h1>
-          <hr />
+          <p>Creative Fullstack Developer</p>
         </div>
+        <div className="overlay" />
       </div>
-      <nav>
+      <nav className="side-nav">
         <ul>
           <li>
             <a href="#profile">Profile</a>
@@ -34,8 +36,7 @@ export default function content(props) {
       <Experience />
       <Skills />
       <Projects />
-      <hr />
-      <footer className="text-center">Written and coded by David Yoon<br/><br/></footer>
+      <Contact />
     </div>
   )
 }
