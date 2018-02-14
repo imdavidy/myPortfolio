@@ -24,7 +24,7 @@ export default function profile(props) {
         </div>
         <div className="col-md-4">
           <div className="img-thumbnail">
-            <img src="./img/myProfilePic.jpg" style={{ width:"100%", borderRadius:"5%"}}/>
+            <img src="./img/myProfilePic.jpg" />
             <p>
               <small>Amazing, caught in the wild, profile picture*<br/>
               <small>*Not scale to size. Maybe larger in real life
