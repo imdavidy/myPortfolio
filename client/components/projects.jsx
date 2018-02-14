@@ -13,6 +13,19 @@ export default function projects(props) {
             <div className="card-body">
               <h5 className="card-title">CodeTap</h5>
               <p className="card-text">Mobile Coding App</p>
+              <ul>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Express.js</li>
+                <li>Node.js</li>
+                <li>Webpack</li>
+                <li>React/Redux</li>
+                <li>React Native</li>
+                <li>Native Base</li>
+                <li>Sequelize</li>
+                <li>PostgreSQL</li>
+              </ul>
             </div>
           </a>
         </div>
@@ -22,6 +35,21 @@ export default function projects(props) {
             <div className="card-body">
               <h5 className="card-title">PowerMarket</h5>
               <p className="card-text">E-commerse Website for superpowers</p>
+              <ul>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Express.js</li>
+                <li>Node.js</li>
+                <li>Passport</li>
+                <li>OAuth</li>
+                <li>Webpack</li>
+                <li>React/Redux</li>
+                <li>Sequelize</li>
+                <li>PostgreSQL</li>
+                <li>Mocha/Chai</li>
+                <li>waffle.io</li>
+              </ul>
             </div>
           </a>
         </div>
@@ -31,6 +59,15 @@ export default function projects(props) {
             <div className="card-body">
               <h5 className="card-title">Porject: JaYeon</h5>
               <p className="card-text">Data Visualization for weather information</p>
+              <ul>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Express.js</li>
+                <li>Node.js</li>
+                <li>Webpack</li>
+                <li>React/Redux</li>
+              </ul>
             </div>
           </a>
         </div>
