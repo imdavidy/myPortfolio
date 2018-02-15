@@ -146,11 +146,12 @@ h2 {
   
   h1 {
     color: white;
-    font-size: 72px;
+    font-size: 64px;
     font-weight: 600;
     border-bottom: 1px solid white;
     border-bottom-color: rgba(255, 255, 255, 0.40);
     margin-bottom: 10px;
+    
   }
   
   hr {
@@ -169,7 +170,7 @@ h2 {
   }
   
   .overlay {
-    background-color: #f1b51c;
+    background-color: #9d0f01;
     position: absolute;
     opacity: 0.65;
     filter: alpha(opacity=65);
