@@ -7,6 +7,15 @@ import Projects from './components/projects';
 import Contact from './components/contact'
 
 export default function content(props) {
+
+  function handleClick(e) {
+    let content = e.target.textContent.toLowerCase()
+    let ele = document.getElementById(content);
+    
+    e.preventDefault();
+    ele.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'})
+  }
+
   return (
     <div>
       <div className="jumbotron">
@@ -17,11 +26,11 @@ export default function content(props) {
         <div className="overlay" />
       </div>
       <nav className="side-nav">
-        <ul>
-          <li>
-            <a href="#profile">Profile</a>
+        <ul  onClick={handleClick} >
+          <li >
+            <a href="#profile" >Profile</a>
           </li>
-          <li>
+          <li >
             <a href="#experience">Experience</a>
           </li>
           <li>
