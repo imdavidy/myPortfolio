@@ -18953,7 +18953,9 @@ function profile(props) {
         _react2.default.createElement(
           'p',
           null,
-          'Full stack software engineer with background of 10+ years in graphic design. Having come from a creative background coupled with the analytical skills of a full stack developer, they form a synergy that is very rare and valuable. I believe it\u2019s an indispensable and vital asset for any company or organization to be comprised of to grow. My full stack knowledge is comprised of JavaScript, Node.js, Express, React, Sequelize and PostgresSQL. Accomplished professional with multiple background demonstrating stellar adaptation and problem solving skills across multiple mediums. Has international work experience utilizing English and Korean bilingual ability in the workplace. Strives to introduce the most up to date technology into all projects for a most affective and efficient solution possible.'
+          'Full stack software engineer with background of 10+ years in graphic design. Having come from a creative background coupled with the analytical skills of a full stack developer, they form a synergy that is very rare and valuable. I believe it\u2019s an indispensable and vital asset for any company or organization to be comprised of to grow.',
+          _react2.default.createElement('br', null),
+          'Accomplished professional with multiple background demonstrating stellar adaptation and problem solving skills across multiple mediums. Has international work experience utilizing English and Korean bilingual ability in the workplace. Strives to introduce the most up to date technology into all projects for a most affective and efficient solution possible.'
         )
       ),
       _react2.default.createElement(
