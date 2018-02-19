@@ -20,7 +20,8 @@
   "homepage": "https://github.com/imdavidy/myPortfolio#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "webpack": "^3.10.0"
   },
   "devDependencies": {
     "babel": "^6.23.0",
@@ -33,7 +34,6 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "sass-loader": "^6.0.6",
-    "style-loader": "^0.20.1",
-    "webpack": "^3.10.0"
+    "style-loader": "^0.20.1"
   }
 }
