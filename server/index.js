@@ -10,9 +10,7 @@ app.use(express.static(resolve(__dirname, '..', 'public')))
 app.use('/api', (req, res, next) => {
   res.send('api reached')
 })
-app.use('*', (req, res, next) => {
-  res.send('welcome!')
-})
+app.use('/*', (_, res) => res.sendFile(resolve(__dirname, '..', 'public', 'index.html')))
 
 app.use((err, req, res, next) => {
   res.send(err);

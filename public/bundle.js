@@ -19456,7 +19456,7 @@ var options = {"hmr":true}
 options.transform = transform
 options.insertInto = undefined;
 
-var update = __webpack_require__(37)(content, options);
+var update = __webpack_require__(36)(content, options);
 
 if(content.locals) module.exports = content.locals;
 
@@ -19491,7 +19491,7 @@ if(false) {
 /* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(36)(false);
+exports = module.exports = __webpack_require__(35)(false);
 // imports
 
 
@@ -19502,8 +19502,7 @@ exports.push([module.i, "body {\n  background: #c2c1bc; }\n\na {\n  color: #666;
 
 
 /***/ }),
-/* 35 */,
-/* 36 */
+/* 35 */
 /***/ (function(module, exports) {
 
 /*
@@ -19585,7 +19584,7 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 37 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -19651,7 +19650,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(38);
+var	fixUrls = __webpack_require__(37);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -19967,7 +19966,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 38 */
+/* 37 */
 /***/ (function(module, exports) {
 
 
