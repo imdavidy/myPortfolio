@@ -22,7 +22,7 @@ export default function contact(props) {
                   <i className="fab fa-github fa-lg"></i> github.com/imdavidy
                 </a>
                 <br />
-                <a  href="https://drive.google.com/file/d/16KhHcAm9jwme8l29989WsOdNckHhWjfT/view?usp=sharing" target="_blank">
+                <a  href="https://drive.google.com/file/d/1ry9-uRuu1xg0Z7hQWlSmLiKozPcaG7qt/view?usp=sharing" target="_blank">
                   <i className="far fa-file-pdf fa-lg" /> David_Yoon-Resume.pdf
                 </a>
               </p>

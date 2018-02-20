@@ -19427,7 +19427,7 @@ function contact(props) {
               _react2.default.createElement('br', null),
               _react2.default.createElement(
                 'a',
-                { href: 'https://drive.google.com/file/d/16KhHcAm9jwme8l29989WsOdNckHhWjfT/view?usp=sharing', target: '_blank' },
+                { href: 'https://drive.google.com/file/d/1ry9-uRuu1xg0Z7hQWlSmLiKozPcaG7qt/view?usp=sharing', target: '_blank' },
                 _react2.default.createElement('i', { className: 'far fa-file-pdf fa-lg' }),
                 ' David_Yoon-Resume.pdf'
               )
