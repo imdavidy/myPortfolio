@@ -18491,7 +18491,8 @@ function experience(props) {
                 _react2.default.createElement(
                   'span',
                   { className: 'location' },
-                  'Columbus, GA'
+                  _react2.default.createElement('i', { 'class': 'fas fa-map-marker-alt' }),
+                  '\xA0Columbus, GA'
                 )
               )
             )
@@ -18539,7 +18540,8 @@ function experience(props) {
                 _react2.default.createElement(
                   'span',
                   { className: 'location' },
-                  'HwaSeong, South Korea'
+                  _react2.default.createElement('i', { 'class': 'fas fa-map-marker-alt' }),
+                  '\xA0HwaSeong, South Korea'
                 )
               )
             )
@@ -18587,7 +18589,8 @@ function experience(props) {
                 _react2.default.createElement(
                   'span',
                   { className: 'location' },
-                  'HwaSeong, South Korea'
+                  _react2.default.createElement('i', { 'class': 'fas fa-map-marker-alt' }),
+                  '\xA0HwaSeong, South Korea'
                 )
               )
             )
@@ -18638,7 +18641,8 @@ function experience(props) {
                 _react2.default.createElement(
                   'span',
                   { className: 'location' },
-                  'Duluth, GA'
+                  _react2.default.createElement('i', { 'class': 'fas fa-map-marker-alt' }),
+                  '\xA0Duluth, GA'
                 )
               )
             )
@@ -18687,7 +18691,8 @@ function experience(props) {
                 _react2.default.createElement(
                   'span',
                   { className: 'location' },
-                  'Doraville, GA'
+                  _react2.default.createElement('i', { 'class': 'fas fa-map-marker-alt' }),
+                  '\xA0Doraville, GA'
                 )
               )
             )
@@ -18736,7 +18741,8 @@ function experience(props) {
                 _react2.default.createElement(
                   'span',
                   { className: 'location' },
-                  'Seoul, South Korea'
+                  _react2.default.createElement('i', { 'class': 'fas fa-map-marker-alt' }),
+                  '\xA0Seoul, South Korea'
                 )
               )
             )
@@ -18787,7 +18793,8 @@ function experience(props) {
                 _react2.default.createElement(
                   'span',
                   { className: 'location' },
-                  'Doraville, GA'
+                  _react2.default.createElement('i', { 'class': 'fas fa-map-marker-alt' }),
+                  '\xA0Doraville, GA'
                 )
               )
             )
@@ -19498,7 +19505,7 @@ exports = module.exports = __webpack_require__(35)(false);
 
 
 // module
-exports.push([module.i, "body {\n  background: #c2c1bc; }\n\na {\n  color: #666; }\n  a ul {\n    color: white; }\n\na:hover {\n  color: #b61910;\n  text-decoration: none; }\n  a:hover img {\n    filter: grayscale(100%) opacity(30%) blur(2px);\n    transition: filter 0.35s; }\n\nimg {\n  width: 100%;\n  -webkit-filter: grayscale(100%);\n  /* Safari 6.0 - 9.0 */\n  filter: none; }\n\nh1, h2, h3, h4 {\n  margin-bottom: 20px; }\n\nh2 {\n  font-family: 'Open Sans', sans-serif;\n  font-size: 54px;\n  text-align: center;\n  color: #b61910; }\n\n.background-white {\n  background-color: #fff;\n  width: auto; }\n\n.background-gray {\n  background-color: #59585d; }\n  .background-gray h2 {\n    color: white; }\n\n.card-body {\n  width: inherit;\n  padding: 15px; }\n  .card-body img {\n    background-color: #444; }\n  .card-body h5 {\n    font-weight: 800;\n    position: absolute;\n    top: 50px;\n    display: none; }\n  .card-body p {\n    position: absolute;\n    top: 85px;\n    display: none; }\n\n.card-text {\n  padding-right: 30px; }\n\n.contact a {\n  font-size: 1rem;\n  color: #cccccc; }\n\n.contact a:hover {\n  color: #f5d94a; }\n\n.contact p {\n  color: #bbb;\n  font-size: 14px;\n  font-weight: lighter;\n  line-height: 1.8rem; }\n\n.contact > div > p {\n  text-align: center; }\n\n.contact .center {\n  width: fit-content;\n  margin: auto; }\n\n.contact .experience-details {\n  color: #b61910; }\n\n.container {\n  max-width: 820px;\n  padding: 40px 80px; }\n  @media only screen and (max-width: 735px) {\n    .container {\n      padding: 30px 20px; } }\n\n.img-thumbnail {\n  background-color: #777;\n  border-width: 0;\n  border-bottom: 5%;\n  margin-bottom: 30px; }\n  .img-thumbnail p {\n    color: #222;\n    padding: 10px 7px 0 7px;\n    line-height: 1rem; }\n\n.jumbotron {\n  height: 100vh;\n  background-image: url(/img/sweater_bw.png);\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  text-align: center; }\n  .jumbotron h1 {\n    color: white;\n    font-size: 64px;\n    font-weight: 600;\n    border-bottom: 1px solid white;\n    border-bottom-color: rgba(255, 255, 255, 0.4);\n    margin-bottom: 10px; }\n  .jumbotron hr {\n    color: pink; }\n  .jumbotron p {\n    font-size: 26px;\n    font-weight: 200;\n    color: white; }\n  .jumbotron .container {\n    top: 35%;\n    z-index: 3; }\n  .jumbotron .overlay {\n    background-color: #9d0f01;\n    position: absolute;\n    opacity: 0.65;\n    filter: alpha(opacity=65);\n    top: 0px;\n    bottom: 0px;\n    left: 0px;\n    right: 0px;\n    z-index: 2; }\n\n.side-nav {\n  position: sticky;\n  float: right;\n  top: 60px;\n  right: 20px;\n  background-color: black;\n  width: 125px;\n  border-radius: 5px;\n  z-index: 999; }\n  @media only screen and (max-width: 735px) {\n    .side-nav {\n      display: none; } }\n  .side-nav a {\n    color: #bbb; }\n    .side-nav a:hover {\n      color: #99ffcc;\n      font-weight: 500; }\n  .side-nav ul {\n    padding: 5px;\n    margin: 0;\n    list-style: none;\n    text-align: center; }\n    .side-nav ul li {\n      padding: 5px; }\n\n#projects a:hover h5 {\n  display: block; }\n\n#projects a:hover p {\n  display: block; }\n\n#projects ul {\n  padding: 4px;\n  text-align: center;\n  width: inherit;\n  margin-left: -3px; }\n\n#projects li {\n  display: inline-flex;\n  font-size: 13px;\n  list-style: none;\n  padding: 3px;\n  margin: 1.5px;\n  width: fit-content;\n  background-color: darkseagreen;\n  border-radius: 3px; }\n", ""]);
+exports.push([module.i, "body {\n  background: #c2c1bc; }\n\na {\n  color: #666; }\n  a ul {\n    color: white; }\n\na:hover {\n  color: #b61910;\n  text-decoration: none; }\n  a:hover img {\n    filter: grayscale(100%) opacity(30%) blur(2px);\n    transition: filter 0.35s; }\n\nimg {\n  width: 100%;\n  -webkit-filter: grayscale(100%);\n  /* Safari 6.0 - 9.0 */\n  filter: none; }\n\nh1, h2, h3, h4 {\n  margin-bottom: 20px; }\n\nh2 {\n  font-family: 'Open Sans', sans-serif;\n  font-size: 54px;\n  text-align: center;\n  color: #b61910; }\n\n.background-white {\n  background-color: #fff;\n  width: auto; }\n\n.background-gray {\n  background-color: #59585d; }\n  .background-gray h2 {\n    color: white; }\n\n.card-body {\n  width: inherit;\n  padding: 15px; }\n  .card-body img {\n    background-color: #444; }\n  .card-body h5 {\n    font-weight: 800;\n    position: absolute;\n    top: 50px;\n    display: none; }\n  .card-body p {\n    position: absolute;\n    top: 85px;\n    display: none; }\n\n.card-text {\n  padding-right: 30px; }\n\n.contact a {\n  font-size: 1rem;\n  color: #cccccc; }\n\n.contact a:hover {\n  color: #f5d94a; }\n\n.contact p {\n  color: #bbb;\n  font-size: 14px;\n  font-weight: lighter;\n  line-height: 1.8rem; }\n\n.contact > div > p {\n  text-align: center; }\n\n.contact .center {\n  width: fit-content;\n  margin: auto; }\n\n.container {\n  max-width: 820px;\n  padding: 40px 80px; }\n  @media only screen and (max-width: 735px) {\n    .container {\n      padding: 30px 20px; } }\n\n.experience {\n  margin-bottom: 20px; }\n  @media only screen and (max-width: 735px) {\n    .experience .experience-description {\n      display: none; } }\n  .experience .location {\n    color: seagreen; }\n\n.img-thumbnail {\n  background-color: #777;\n  border-width: 0;\n  border-bottom: 5%;\n  margin-bottom: 30px; }\n  .img-thumbnail p {\n    color: #222;\n    padding: 10px 7px 0 7px;\n    line-height: 1rem; }\n\n.jumbotron {\n  height: 100vh;\n  background-image: url(/img/sweater_bw.png);\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  text-align: center; }\n  .jumbotron h1 {\n    color: white;\n    font-size: 64px;\n    font-weight: 600;\n    border-bottom: 1px solid white;\n    border-bottom-color: rgba(255, 255, 255, 0.4);\n    margin-bottom: 10px; }\n  .jumbotron hr {\n    color: pink; }\n  .jumbotron p {\n    font-size: 26px;\n    font-weight: 200;\n    color: white; }\n  .jumbotron .container {\n    top: 35%;\n    z-index: 3; }\n  .jumbotron .overlay {\n    background-color: #9d0f01;\n    position: absolute;\n    opacity: 0.65;\n    filter: alpha(opacity=65);\n    top: 0px;\n    bottom: 0px;\n    left: 0px;\n    right: 0px;\n    z-index: 2; }\n\n.side-nav {\n  position: sticky;\n  float: right;\n  top: 60px;\n  right: 20px;\n  background-color: black;\n  width: 125px;\n  border-radius: 5px;\n  z-index: 999; }\n  @media only screen and (max-width: 735px) {\n    .side-nav {\n      display: none; } }\n  .side-nav a {\n    color: #bbb; }\n    .side-nav a:hover {\n      color: #99ffcc;\n      font-weight: 500; }\n  .side-nav ul {\n    padding: 5px;\n    margin: 0;\n    list-style: none;\n    text-align: center; }\n    .side-nav ul li {\n      padding: 5px; }\n\n#projects a:hover h5 {\n  display: block; }\n\n#projects a:hover p {\n  display: block; }\n\n#projects ul {\n  padding: 4px;\n  text-align: center;\n  width: inherit;\n  margin-left: -3px; }\n\n#projects li {\n  display: inline-flex;\n  font-size: 13px;\n  list-style: none;\n  padding: 3px;\n  margin: 1.5px;\n  width: fit-content;\n  background-color: darkseagreen;\n  border-radius: 3px; }\n", ""]);
 
 // exports
 

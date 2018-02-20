@@ -30,7 +30,9 @@ export default function experience(props) {
               </span>
               <br />
               <span className="experience-details">
-                <span className="location">Columbus, GA</span>
+                <span className="location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  &nbsp;Columbus, GA</span>
               </span> 
             </p>
           </div>
@@ -50,7 +52,9 @@ export default function experience(props) {
               </span>
               <br />
               <span className="experience-details">
-                <span className="location">HwaSeong, South Korea</span>
+                <span className="location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  &nbsp;HwaSeong, South Korea</span>
               </span> 
             </p>
           </div>
@@ -71,7 +75,9 @@ export default function experience(props) {
               </span>
               <br />
               <span className="experience-details">
-                <span className="location">HwaSeong, South Korea</span>
+                <span className="location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  &nbsp;HwaSeong, South Korea</span>
               </span> 
             </p>
           </div>
@@ -94,7 +100,9 @@ export default function experience(props) {
               </span>
               <br />
               <span className="experience-details">
-                <span className="location">Duluth, GA</span>
+                <span className="location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  &nbsp;Duluth, GA</span>
               </span> 
             </p>
           </div>
@@ -115,7 +123,9 @@ export default function experience(props) {
               </span>
               <br />
               <span className="experience-details">
-                <span className="location">Doraville, GA</span>
+                <span className="location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  &nbsp;Doraville, GA</span>
               </span> 
             </p>
           </div>
@@ -136,7 +146,9 @@ export default function experience(props) {
               </span>
               <br />
               <span className="experience-details">
-                <span className="location">Seoul, South Korea</span>
+                <span className="location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  &nbsp;Seoul, South Korea</span>
               </span> 
             </p>
           </div>
@@ -159,7 +171,9 @@ export default function experience(props) {
               </span>
               <br />
               <span className="experience-details">
-                <span className="location">Doraville, GA</span>
+                <span className="location">
+                  <i class="fas fa-map-marker-alt"></i>
+                  &nbsp;Doraville, GA</span>
               </span> 
             </p>
           </div>
