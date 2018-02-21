@@ -159,7 +159,19 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  overflow: hidden;
   text-align: center;
+  
+  @media 
+  only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 735px),
+  only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 735px),
+  only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 735px),
+  only screen and (min-device-pixel-ratio: 2) and (max-width: 735px),
+  only screen and (max-width: 735px) {
+      background-image: url(/img/sweater_bw-m.png);
+      background-size: 735px;
+  }
+  
   
   h1 {
     color: white;
@@ -187,6 +199,7 @@ h2 {
   }
   
   .overlay {
+    height: inherit;
     background-color: #9d0f01;
     position: absolute;
     opacity: 0.65;
