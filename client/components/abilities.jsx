@@ -20,7 +20,9 @@ export default function abilities(props) {
       <div className="row">
         <div className="col-md-8">
           <p>
-            English (Fluent written and spoken), Korean (Intermediate conversational)
+            English (Fluent written and spoken),
+            <br />
+            Korean (Intermediate conversational)
           </p>
         </div>
       </div>

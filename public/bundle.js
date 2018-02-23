@@ -20098,7 +20098,9 @@ function abilities(props) {
         _react2.default.createElement(
           'p',
           null,
-          'English (Fluent written and spoken), Korean (Intermediate conversational)'
+          'English (Fluent written and spoken),',
+          _react2.default.createElement('br', null),
+          'Korean (Intermediate conversational)'
         )
       )
     )
