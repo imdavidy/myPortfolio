@@ -18290,9 +18290,9 @@ var _profile = __webpack_require__(29);
 
 var _profile2 = _interopRequireDefault(_profile);
 
-var _skills = __webpack_require__(30);
+var _abilities = __webpack_require__(38);
 
-var _skills2 = _interopRequireDefault(_skills);
+var _abilities2 = _interopRequireDefault(_abilities);
 
 var _projects = __webpack_require__(31);
 
@@ -18365,8 +18365,8 @@ function content(props) {
           null,
           _react2.default.createElement(
             'a',
-            { href: '#skills' },
-            'Skills'
+            { href: '#abilities' },
+            'Abilities'
           )
         ),
         _react2.default.createElement(
@@ -18391,7 +18391,7 @@ function content(props) {
     ),
     _react2.default.createElement(_profile2.default, null),
     _react2.default.createElement(_experience2.default, null),
-    _react2.default.createElement(_skills2.default, null),
+    _react2.default.createElement(_abilities2.default, null),
     _react2.default.createElement(_projects2.default, null),
     _react2.default.createElement(_contact2.default, null)
   );
@@ -18960,9 +18960,11 @@ function profile(props) {
         _react2.default.createElement(
           'p',
           null,
-          'Hi! I\'m a full-stack software engineer with background of 10+ years in graphic design. Having come from a creative background coupled with the analytical skills of a full stack developer, they form a synergy that is very rare and valuable. I believe it\u2019s an indispensable and vital asset for any company or organization to be comprised of to grow.',
+          'Hi! I\'m a full-stack software engineer with background of 10+ years in graphic design. Having come from a creative background coupled with the analytical skills of a full stack developer, it\'s a synergy that is very rare and valuable. I believe it\u2019s an indispensable and vital asset for any company or organization to thrive and succeed in the future.',
           _react2.default.createElement('br', null),
-          'Accomplished professional with multiple background demonstrating stellar adaptation and problem solving skills across multiple mediums. Has international work experience utilizing English and Korean bilingual ability in the workplace. Strives to introduce the most up to date technology into all projects for a most affective and efficient solution possible.'
+          'As an accomplished professional with multiple background demonstrating stellar adaptation and problem solving skills across multiple mediums, I have international work experience utilizing English and Korean bilingual ability in the workplace.',
+          _react2.default.createElement('br', null),
+          'I love gaining new tools under my belt, to introduce the most up to date technology into all projects for a most affective and efficient solution possible.'
         )
       ),
       _react2.default.createElement(
@@ -19018,48 +19020,7 @@ function profile(props) {
 }
 
 /***/ }),
-/* 30 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = skills;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactDom = __webpack_require__(2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function skills(props) {
-  return _react2.default.createElement(
-    'div',
-    { className: 'container', id: 'skills' },
-    _react2.default.createElement(
-      'h2',
-      null,
-      'Skills'
-    ),
-    _react2.default.createElement(
-      'h5',
-      null,
-      'Proficient in the following:'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'JavaScript, Node.js, Express, React/React-Redux, Redux, Sequelize, PostgreSQL, Socket.io, jQuery, Jasmine, Mocha/Chai, Git/GitHub, HTML/CSS, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe PageMaker, Adobe Image Ready, Adobe Premiere, QuarkXpress, Fontographer, Flash, Director, Corel Draw, Microsoft Front Page, Microsoft Office'
-    )
-  );
-}
-
-/***/ }),
+/* 30 */,
 /* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20068,6 +20029,81 @@ module.exports = function (css) {
 	return fixedCss;
 };
 
+
+/***/ }),
+/* 38 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = abilities;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function abilities(props) {
+  return _react2.default.createElement(
+    'div',
+    { className: 'container', id: 'abilities' },
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Abilities'
+    ),
+    _react2.default.createElement('hr', null),
+    _react2.default.createElement(
+      'h3',
+      null,
+      'Skills'
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'row' },
+      _react2.default.createElement(
+        'div',
+        { className: 'col-md-8' },
+        _react2.default.createElement(
+          'h5',
+          null,
+          'Proficient in the following:'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'JavaScript, Node.js, Express, React/React-Redux, Redux, Sequelize, PostgreSQL, Socket.io, jQuery, Jasmine, Mocha/Chai, Git/GitHub, HTML/CSS, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe PageMaker, Adobe Image Ready, Adobe Premiere, QuarkXpress, Fontographer, Flash, Director, Corel Draw, Microsoft Front Page, Microsoft Office'
+        )
+      )
+    ),
+    _react2.default.createElement('hr', null),
+    _react2.default.createElement(
+      'h3',
+      null,
+      'Languages'
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'row' },
+      _react2.default.createElement(
+        'div',
+        { className: 'col-md-8' },
+        _react2.default.createElement(
+          'p',
+          null,
+          'English (Fluent written and spoken), Korean (Intermediate conversational)'
+        )
+      )
+    )
+  );
+}
 
 /***/ })
 /******/ ]);

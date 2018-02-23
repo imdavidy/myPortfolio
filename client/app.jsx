@@ -2,7 +2,7 @@ import React from 'react';
 import {render} from 'react-dom';
 import Experience from './components/experience';
 import Profile from './components/profile';
-import Skills from './components/skills';
+import Abilities from './components/abilities';
 import Projects from './components/projects';
 import Contact from './components/contact'
 
@@ -34,7 +34,7 @@ export default function content(props) {
             <a href="#experience">Experience</a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#abilities">Abilities</a>
           </li>
           <li>
             <a href="#projects">Projects</a>
@@ -46,7 +46,7 @@ export default function content(props) {
       </nav>
       <Profile />
       <Experience />
-      <Skills />
+      <Abilities />
       <Projects />
       <Contact />
     </div>
