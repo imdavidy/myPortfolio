@@ -19122,7 +19122,7 @@ function abilities(props) {
         _react2.default.createElement(
           'p',
           null,
-          'JavaScript, Node.js, Express, React/React-Redux, Redux, MySql, MongoDB, Redis, Sequelize, PostgreSQL, Socket.io, jQuery, Jasmine, Mocha/Chai, Git/GitHub, HTML/CSS, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe PageMaker, Adobe Image Ready, Adobe Premiere, QuarkXpress, Fontographer, Flash, Director, Corel Draw, Microsoft Front Page, Microsoft Office'
+          'JavaScript, Node.js, Express, React/React-Redux, Redux, AngularJS, MySql, MongoDB, Redis, Sequelize, PostgreSQL, Socket.io, jQuery, Jasmine, Mocha/Chai, Git/GitHub, HTML/CSS, Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe PageMaker, Adobe Image Ready, Adobe Premiere, QuarkXpress, Fontographer, Flash, Director, Corel Draw, Microsoft Front Page, Microsoft Office'
         )
       )
     ),
