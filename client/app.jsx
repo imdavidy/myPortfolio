@@ -21,7 +21,7 @@ export default function content(props) {
       <div className="jumbotron">
         <div className="container">
           <h1>David Yoon</h1>
-          <p>Creative Fullstack Developer</p>
+          <p>Creative Software Engineer</p>
         </div>
         <div className="overlay" />
       </div>

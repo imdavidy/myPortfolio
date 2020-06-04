@@ -18331,7 +18331,7 @@ function content(props) {
         _react2.default.createElement(
           'p',
           null,
-          'Creative Fullstack Developer'
+          'Creative Software Engineer'
         )
       ),
       _react2.default.createElement('div', { className: 'overlay' })
@@ -18463,6 +18463,50 @@ function experience(props) {
             _react2.default.createElement(
               'h4',
               null,
+              'CircleBlack, Inc.'
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'dates' },
+              'July. 2018 - Present'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'col-md-8' },
+            _react2.default.createElement(
+              'p',
+              null,
+              _react2.default.createElement(
+                'strong',
+                null,
+                'Software Engineer'
+              ),
+              _react2.default.createElement('br', null),
+              _react2.default.createElement('span', { className: 'experience-description' }),
+              _react2.default.createElement('br', null),
+              _react2.default.createElement(
+                'span',
+                { className: 'experience-details' },
+                _react2.default.createElement(
+                  'span',
+                  { className: 'location' },
+                  _react2.default.createElement('i', { className: 'fas fa-map-marker-alt' }),
+                  '\xA0Columbus, GA'
+                )
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'experience row' },
+          _react2.default.createElement(
+            'div',
+            { className: 'col-md-4' },
+            _react2.default.createElement(
+              'h4',
+              null,
               'Freelance Graphic Designer'
             ),
             _react2.default.createElement(
@@ -18483,7 +18527,11 @@ function experience(props) {
                 'Graphic Designer | Consultant'
               ),
               _react2.default.createElement('br', null),
-              _react2.default.createElement('span', { className: 'experience-description' }),
+              _react2.default.createElement(
+                'span',
+                { className: 'experience-description' },
+                '\u2022 Built/maintained APIs to aggregate and process financial data of billions in assets from multiple sources, internal and external; \u2022 Built/maintained multiple frontend client apps and internal data processing tools and utilities; \u2022 Designed/developed/tested development tickets; \u2022 Worked in Agile methodology'
+              ),
               _react2.default.createElement('br', null),
               _react2.default.createElement(
                 'span',
@@ -18492,7 +18540,7 @@ function experience(props) {
                   'span',
                   { className: 'location' },
                   _react2.default.createElement('i', { className: 'fas fa-map-marker-alt' }),
-                  '\xA0Columbus, GA'
+                  '\xA0Jersey City, NJ'
                 )
               )
             )
@@ -18943,7 +18991,7 @@ function profile(props) {
     _react2.default.createElement(
       'p',
       null,
-      'A Humble Creative JavaScript Developer'
+      'A Humble Creative Software Engineer'
     ),
     _react2.default.createElement('hr', null),
     _react2.default.createElement(
