@@ -24,15 +24,19 @@ export default function experience(props) {
               <strong>Software Engineer</strong>
               <br />
               <span className="experience-description">
-                {/*
-                  Consulted clients with various branding goals and visual representations
-                */}
+                •	Built/maintained APIs to aggregate and process financial data of billions in assets from multiple sources, internal and external;
+                <br />
+                •	Built/maintained multiple frontend client apps and internal data processing tools and utilities;
+                <br />
+                •	Designed/developed/tested development tickets;
+                <br />
+                •	Worked in Agile methodology
               </span>
               <br />
               <span className="experience-details">
                 <span className="location">
                   <i className="fas fa-map-marker-alt"></i>
-                  &nbsp;Columbus, GA</span>
+                  &nbsp;Jersey City, NJ</span>
               </span>
             </p>
           </div>
@@ -47,16 +51,15 @@ export default function experience(props) {
               <strong>Graphic Designer | Consultant</strong>
               <br />
               <span className="experience-description">
-                •	Built/maintained APIs to aggregate and process financial data of billions in assets from multiple sources, internal and external;
-                •	Built/maintained multiple frontend client apps and internal data processing tools and utilities;
-                •	Designed/developed/tested development tickets;
-                •	Worked in Agile methodology
+                {/*
+                  Consulted clients with various branding goals and visual representations
+                */}
               </span>
               <br />
               <span className="experience-details">
                 <span className="location">
                   <i className="fas fa-map-marker-alt"></i>
-                  &nbsp;Jersey City, NJ</span>
+                  &nbsp;Columbus, GA</span>
               </span> 
             </p>
           </div>
