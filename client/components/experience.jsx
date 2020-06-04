@@ -16,12 +16,12 @@ export default function experience(props) {
       <div className="experiences">
         <div className="experience row">
           <div className="col-md-4">
-            <h4>Freelance Graphic Designer</h4>
-            <p className="dates">Feb. 2013 - Apr. 2017</p>
+            <h4>CircleBlack, Inc.</h4>
+            <p className="dates">July. 2018 - Present</p>
           </div>
           <div className="col-md-8">
             <p>
-              <strong>Graphic Designer | Consultant</strong>
+              <strong>Software Engineer</strong>
               <br />
               <span className="experience-description">
                 {/*
@@ -33,6 +33,30 @@ export default function experience(props) {
                 <span className="location">
                   <i className="fas fa-map-marker-alt"></i>
                   &nbsp;Columbus, GA</span>
+              </span>
+            </p>
+          </div>
+        </div>
+        <div className="experience row">
+          <div className="col-md-4">
+            <h4>Freelance Graphic Designer</h4>
+            <p className="dates">Feb. 2013 - Apr. 2017</p>
+          </div>
+          <div className="col-md-8">
+            <p>
+              <strong>Graphic Designer | Consultant</strong>
+              <br />
+              <span className="experience-description">
+                •	Built/maintained APIs to aggregate and process financial data of billions in assets from multiple sources, internal and external;
+                •	Built/maintained multiple frontend client apps and internal data processing tools and utilities;
+                •	Designed/developed/tested development tickets;
+                •	Worked in Agile methodology
+              </span>
+              <br />
+              <span className="experience-details">
+                <span className="location">
+                  <i className="fas fa-map-marker-alt"></i>
+                  &nbsp;Jersey City, NJ</span>
               </span> 
             </p>
           </div>
