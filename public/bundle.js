@@ -18483,7 +18483,17 @@ function experience(props) {
                 'Software Engineer'
               ),
               _react2.default.createElement('br', null),
-              _react2.default.createElement('span', { className: 'experience-description' }),
+              _react2.default.createElement(
+                'span',
+                { className: 'experience-description' },
+                '\u2022 Built/maintained APIs to aggregate and process financial data of billions in assets from multiple sources, internal and external;',
+                _react2.default.createElement('br', null),
+                '\u2022 Built/maintained multiple frontend client apps and internal data processing tools and utilities;',
+                _react2.default.createElement('br', null),
+                '\u2022 Designed/developed/tested development tickets;',
+                _react2.default.createElement('br', null),
+                '\u2022 Worked in Agile methodology'
+              ),
               _react2.default.createElement('br', null),
               _react2.default.createElement(
                 'span',
@@ -18492,7 +18502,7 @@ function experience(props) {
                   'span',
                   { className: 'location' },
                   _react2.default.createElement('i', { className: 'fas fa-map-marker-alt' }),
-                  '\xA0Columbus, GA'
+                  '\xA0Jersey City, NJ'
                 )
               )
             )
@@ -18527,11 +18537,7 @@ function experience(props) {
                 'Graphic Designer | Consultant'
               ),
               _react2.default.createElement('br', null),
-              _react2.default.createElement(
-                'span',
-                { className: 'experience-description' },
-                '\u2022 Built/maintained APIs to aggregate and process financial data of billions in assets from multiple sources, internal and external; \u2022 Built/maintained multiple frontend client apps and internal data processing tools and utilities; \u2022 Designed/developed/tested development tickets; \u2022 Worked in Agile methodology'
-              ),
+              _react2.default.createElement('span', { className: 'experience-description' }),
               _react2.default.createElement('br', null),
               _react2.default.createElement(
                 'span',
@@ -18540,7 +18546,7 @@ function experience(props) {
                   'span',
                   { className: 'location' },
                   _react2.default.createElement('i', { className: 'fas fa-map-marker-alt' }),
-                  '\xA0Jersey City, NJ'
+                  '\xA0Columbus, GA'
                 )
               )
             )
